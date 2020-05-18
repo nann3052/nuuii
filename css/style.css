@@ -10,6 +10,10 @@
     background-color: white;
 }
 
+main {
+    display: block;
+}
+
 nav {
     height: 9vh;
     width: 100%;
@@ -137,6 +141,10 @@ nav {
 /* --- Footer --- */
 footer {
     background-color: #40638D;
+}
+
+p{
+    font-size: 6em;
 }
 
 /* --- Up-arrow --- */
