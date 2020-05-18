@@ -2,16 +2,26 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
 }
 
 
 
 #wrapper {
     background-color: white;
+    width: 100%;
 }
 
 main {
     display: block;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #98b6c4;
 }
 
 nav {
@@ -21,7 +31,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: ;
     top: 0;
 }
 
@@ -207,3 +217,23 @@ p{
     }
 }
 
+/* --- contactformular --- */
+
+.container {
+    padding: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #2b435b;
+    border: 1px;
+}
+
+label {
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 5%;
+}
+
+textarea {
+ width: 80%;   
+}
