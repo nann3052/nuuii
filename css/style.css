@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     display: block;
     text-align: center;
+    color: #40638d;
 }
 
 
@@ -95,7 +96,6 @@ nav {
 #nav-links-desktop a {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     font-weight: 700;
 }
@@ -133,7 +133,6 @@ nav {
 
 #nav-links-mobile a {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.6em;
     font-weight: 700;
     color: white;
@@ -150,6 +149,7 @@ nav {
 
 /* --- Footer --- */
 footer {
+    height: 50px;
     background-color: #40638D;
 }
 
@@ -220,11 +220,15 @@ p{
 /* --- contactformular --- */
 
 .container {
-    padding: 8%;
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
     margin-left: auto;
     margin-right: auto;
-    border-color: #2b435b;
-    border: 1px;
+    border: solid 1px #2b435b;
+    
 }
 
 label {
@@ -236,4 +240,8 @@ label {
 
 textarea {
  width: 80%;   
+}
+
+input {
+    padding: 1%;
 }
