@@ -22,7 +22,7 @@ const backToTopBtn = document.querySelector("#back-to-top-btn");
 window.addEventListener("scroll", scrollUpFunction);
 
 function scrollUpFunction() {
-    if (window.pageYOffset > 201){
+    if (window.pageYOffset > 500){
         backToTopBtn.style.display = "block";
     }
     else{
