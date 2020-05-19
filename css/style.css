@@ -154,7 +154,7 @@ nav {
 .intro-container {
     background-image: url(../images/heroimage.JPG);
     background-position: center;
-    background-size: 140vw;
+    background-size: 140vh;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
 }
