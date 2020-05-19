@@ -29,11 +29,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: inherit;
     top: 0;
 }
 
-/* --- Logo --- */
+/* --- Logo Nav --- */
 
 #logo {
     height: 8vh;
@@ -143,6 +143,11 @@ nav {
     font-size: 1.6em;
     font-weight: 700;
     color: #40638D;
+}
+
+/*------- HERO image index -----*/
+#hero-logo {
+    width: 50vw;
 }
 
 
