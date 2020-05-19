@@ -29,11 +29,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: inherit;
     top: 0;
 }
 
-/* --- Logo --- */
+/* --- Logo Nav --- */
 
 #logo {
     height: 8vh;
@@ -145,7 +145,31 @@ nav {
     color: #40638D;
 }
 
+/*------- HERO image index -----*/
+#hero-logo {
+    width: 50vw;
+    margin-top: 10vh;
+}
 
+.intro-container {
+    background-image: url(../images/heroimage.JPG);
+    background-position: center;
+    background-size: 140vw;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+}
+
+.intro-container h1 {
+    font-size: 1em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-top: 2vh;
+}
+
+.intro-container h2 {
+    font-size: 2.0em;
+    margin-top: 10vh;
+}
 
 /* --- Footer --- */
 footer {
@@ -218,6 +242,10 @@ p{
 }
 
 /* --- contactformular --- */
+
+form {
+    display: block;
+}
 
 .container {
     width: 90%;
