@@ -88,6 +88,7 @@ nav {
 
 #nav-links-desktop li {
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -100,7 +101,7 @@ nav {
 }
 
 #nav-links-desktop a:hover {
-    color: #813BFF;
+    color: #7db7c7;
 }
 
 /* --- Nav-mobile --- */
@@ -120,6 +121,7 @@ nav {
     padding-bottom: 10vh;
     overflow: hidden;
     transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
     
     
 }
@@ -245,10 +247,10 @@ input {
 }
 
 
-/*------ Media Query 750 px -----*/
-/* ---- Media query ---- */ 
+/*------------------------- Media Query -----------------*/
+/* ---- Media query 750 px ---- */ 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px) {
 
     #nav-links-mobile {
         display: none;
