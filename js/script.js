@@ -8,7 +8,7 @@ function showMobileNav() {
         showMenu.style.width = "100vw";
     }
     
-    // burger animation
+    // burger animation at toggle
     const burger = document.querySelector("#burger");
     
     burger.classList.toggle("toggle");
