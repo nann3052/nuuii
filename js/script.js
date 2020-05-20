@@ -59,3 +59,25 @@ function getIngr() {
             document.getElementById("output").innerHTML = data;
         })
 }
+
+// FAQ drop down
+
+const faq = document.querySelector("faq-answer")
+
+const i;
+
+for(i=0; i <faq.length;i++) {
+    faq [i].onclick = function() {
+        this.classList.toggle("active")
+        
+        const panel = this.nextElementSibling
+        
+        if(panel.style.maxHeight){
+            panel.style.maxHeight = null;
+        }
+        
+        else{
+            panel.style.maxHeight = panel.scrollHeight + "px"
+        }
+    }
+}

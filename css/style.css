@@ -356,6 +356,39 @@ text-align: center;
 
 /*------- FAQ forside ------*/
 
+#indexfaq {
+    text-align: center;
+    margin: 50px auto;
+}
+button.faq-dropdown {
+    font-size: 1.1em;
+    background:#f7ffff;
+    border:0;
+    cursor: pointer;
+    color:blue;
+    padding: 18px;
+    width: 80%;
+    text-align: left;
+    transition:0.4s ease-out;
+}
+
+button.faq-dropdown:active, button.faq-dropdown:hover {
+    background-color: aqua;
+    
+}
+
+button:focus{
+    outline:none;
+}
+
+div.faq-answer {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    width: 67%;
+    margin: 0 auto;
+    transition: max-height 0.2s ease-out;
+}
 
 /* --- Footer --- */
 footer {
