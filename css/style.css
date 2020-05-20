@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     color: #40638d;
 }
 
@@ -19,13 +18,13 @@
 header {
     height: 50px;
     width: 100%;
-    background-color: #98b6c4;
+    background-color: #c5cfdb;
 }
 
 nav {
     height: 9vh;
     width: 100%;
-    background-color: #f7ffff;
+    background-color: #c5cfdb;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +110,7 @@ nav {
     top: 9vh;
     right: 0;
     height: 80vh;
-    background-color:#f7ffff;
+    background-color:#f8ffff;
     width: 0vw;
     display: flex;
     flex-direction: column;
@@ -176,7 +175,7 @@ nav {
 
 }
 #button-intro {
-    background-color:#f7ffff;
+    background-color:#f8ffff;
     height: 5vh;
     width: 20vh;
     border-radius: 50px;
