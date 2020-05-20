@@ -47,18 +47,15 @@ function backToTop(){
 }
 
 //ingrediens api
-function getIngredienser(){
+const getIngrBtnElement = document.getElementById("getIngr");
+
+getIngrBtnElement.addEventListener("click", getIngr);
+
+function getIngr() {
     fetch('json/ingredienser.json')
-    .then((res) => res.json())
-    .then((data) => {
-        console.log(data);
-        
-        let output = '';  
-        data.forEach(function(answer){
-            output += `
-             <h3 id="vejleder">Vejleder: ${answer.vejlederA}</h3>
-            `;
+        .then((res) => res.json())
+        .then((data) => {
+         let output = '';
+            document.getElementById("output").innerHTML = data;
         })
-        document.getElementById('output').innerHTML = output;
-    })
 }
