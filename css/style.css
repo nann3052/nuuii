@@ -237,7 +237,7 @@ text-align: center;
     height: 5vh;
     width: 20vh;
     border-radius: 50px;
-    margin: 5vh auto 10vh auto;
+    margin: 2vh auto 10vh auto;
     padding: 2.5%;
 }
 .button-hhh a {
@@ -250,13 +250,65 @@ text-align: center;
 }
 
 /* ------ Produkt afsnit forside ----*/
-#product-heading {
+.product-container {
+    position: relative;
+    margin: 5% 0 0 0;
+
+}
+.overlay-heading{
+  position: absolute;
+    top: 40%;
+    width: 100%;
+  opacity: 100%;
+    font-size: 4em;
+    text-transform: uppercase;
+     font-weight: bolder;
+    color:#40638D;
+    text-shadow: white 2px 0px;
+}
+
+.overlay-click{
+  position: absolute;
+    top: 70%;
+    width: 100%;
+  opacity: 100%;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:#f7ffff;
+}
+.produktimg {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+.overlay-info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 20% 5% 0 5%;
+  opacity: 0;
+    font-size: 1.2em;
+    background-color:#99b7c4;
+      color:#f7ffff;
+    line-height: 130%;
     
 }
 
-.product-container {
-    position: relative;
-    width: 50%;
+.product-container:active .overlay-info {
+    opacity:100%;
+}
+
+/*----- Om Nuuii index -----*/
+.headers-index {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#indexomnuuii {
+    margin: 10% 0 0 0;
 }
 
 /* --- Footer --- */
