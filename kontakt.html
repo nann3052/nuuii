@@ -14,79 +14,84 @@
 </head>
 
 <body>
-<div id="wrapper">
+    <div id="wrapper">
 
-<header>
+        <header>
 
-<nav>
+            <nav>
 
-        <div id="logo">
-            <a href="index.html"><img src="images/leaflogo.png" alt=" nuuii logo"></a>
-        </div>
-        
-        <div id="burger" onclick="showMobileNav()">
-            <div class="burger-line" id="line-1"></div>
-            <div class="burger-line" id="line-2"></div>
-            <div class="burger-line" id="line-3"></div>
-        </div>
-        
-        <div id="toggle-desk-nav">
-            <ul id="nav-links-desktop">
-                
-                <li><a href="produkter.html">Produkter</a></li>
-                <li><a href="vejledning.html">Vejledning</a></li>
-                <li><a href="omnuuii.html">Om Nuuii</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </div>
-        
-        <ul id="nav-links-mobile">
-            <li id="mobile-logo" class="show-links"><a href="index.html"><img src="images/leaflogo.png" alt="logo"></a></li>
-            <li class="show-links"><a href="produkter.html">Produkter</a></li>
-             <li><a href="vejledning.html">Vejledning</a></li>
-            <li class="show-links"><a href="omnuuii.html">Om Nuuii</a></li>
-            <li class="show-links"><a href="kontakt.html">Kontakt</a></li>
-            
-        </ul>
-    </nav>
-    </header>
+                <div id="logo">
+                    <a href="index.html"><img src="images/leaflogo.png" alt=" nuuii logo"></a>
+                </div>
 
-    <main>
-       <section>
-        <p>Følg os på de sociale medier</p>
-        <p>links til instagram og facebook</p>
-        <p>eller kontakt os på mail</p>
-        <p>eller kontakt os direkte her</p>
-        </section>
-        <div class="container">
-            <form action="action_page.php">
+                <div id="burger" onclick="showMobileNav()">
+                    <div class="burger-line" id="line-1"></div>
+                    <div class="burger-line" id="line-2"></div>
+                    <div class="burger-line" id="line-3"></div>
+                </div>
 
-                <label for="fname">Dit navn (Skal udfyldes)</label>
-                <input type="text" id="fname" name="firstname">
+                <div id="toggle-desk-nav">
+                    <ul id="nav-links-desktop">
 
-                <label for="email">Din e-mail (Skal udfyldes)</label>
-                <input type="text" id="email" name="mailadress">
-                
-                <label for="subject">Din e-mail (Skal udfyldes)</label>
-                <input type="text" id="subject" name="mailsubject">
+                        <li><a href="produkter.html">Produkter</a></li>
+                        <li><a href="vejledning.html">Vejledning</a></li>
+                        <li><a href="omnuuii.html">Om Nuuii</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
 
-                <label for="message">Din besked</label>
-                <textarea id="message" name="yourmessage"></textarea>
+                <ul id="nav-links-mobile">
+                    <li id="mobile-logo" class="show-links"><a href="index.html"><img src="images/leaflogo.png" alt="logo"></a></li>
+                    <li class="show-links"><a href="produkter.html">Produkter</a></li>
+                    <li><a href="vejledning.html">Vejledning</a></li>
+                    <li class="show-links"><a href="omnuuii.html">Om Nuuii</a></li>
+                    <li class="show-links"><a href="kontakt.html">Kontakt</a></li>
 
-                <input type="submit" value="Send">
+                </ul>
+            </nav>
+        </header>
 
-            </form>
-        </div>
-        <div id="scroll-container">
-            <div id="back-to-top-btn" style="display: none;"><img src="images/icons/top-arrow.svg" alt="arrow-up" class="pulsate-bck"></div>
-        </div>
+        <main>
+            <section>
+                <p>Følg os på de sociale medier</p>
+                <p>links til instagram og facebook</p>
+                <p>eller kontakt os på mail</p>
+                <p>eller kontakt os direkte her</p>
+            </section>
+            <article class="container">
+                <form action="action_page.php">
+                    <div id="fname">
+                        <label for="fname">Dit navn (Skal udfyldes)</label>
+                        <input type="text" id="fnameinput" name="firstname">
+                    </div>
+                    <div id="email">
+                        <label for="email">Din e-mail (Skal udfyldes)</label>
+                        <input type="text" id="emailinput" name="mailadress">
+                    </div>
+                    <div id="subject">
+                        <label for="subject">Din e-mail (Skal udfyldes)</label>
+                        <input type="text" id="subjectinput" name="mailsubject">
+                    </div>
+                    <div id="message">
+                        <label for="message">Din besked</label>
+                        <textarea id="messageinput" name="yourmessage"></textarea>
+                    </div>
+                    <div id="send">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </article>
 
-    </main>
-    <footer>
+            <div id="scroll-container">
+                <div id="back-to-top-btn" style="display: none;"><img src="images/icons/top-arrow.svg" alt="arrow-up" class="pulsate-bck"></div>
+            </div>
 
-    </footer>
-    <script src="js/script.js"></script>
-</div>
+        </main>
+        <footer>
+
+        </footer>
+        <script src="js/script.js"></script>
+    </div>
 </body>
 
 </html>
