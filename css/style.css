@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
     color: #40638d;
 }
 
@@ -17,13 +18,13 @@
 
 header {
     width: 100%;
-    background-color: #c5cfdb;
+    background-color: #98b6c4;
 }
 
 nav {
     height: 9vh;
     width: 100%;
-    background-color: #c5cfdb;
+    background-color: #f7ffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,7 +110,7 @@ nav {
     top: 9vh;
     right: 0;
     height: 80vh;
-    background-color: #f8ffff;
+    background-color:#f7ffff;
     width: 0vw;
     display: flex;
     flex-direction: column;
@@ -120,15 +121,14 @@ nav {
     overflow: hidden;
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
-
-
+    
+    
 }
 
 #nav-links-mobile li {
     list-style: none;
-
+    
 }
-
 #mobile-logo img {
     width: 10vh;
 }
@@ -161,41 +161,38 @@ nav {
 
 #intro-container h1 {
     font-size: 1em;
-    font-weight: bold;
+    font-weight:bold;
     text-transform: uppercase;
     margin-top: 2vh;
     text-shadow: white 2px 0px;
 }
 
 #intro-container h2 {
-    color: #40638D;
+    color:#40638D;
     font-size: 2.0em;
     margin-top: 17vh;
-    font-weight: bolder;
+    font-weight:bolder;
     text-transform: uppercase;
 
 }
-
 #button-intro {
-    background-color: #f8ffff;
+    background-color:#f7ffff;
     height: 5vh;
     width: 20vh;
     border-radius: 50px;
     margin: 5vh auto 5vh auto;
     padding: 2%;
-
-
-
+  
+    
+    
 }
-
 #button-more {
-    text-align: center;
+    text-align:center;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
-
-#button-intro:hover {
+#button-intro:hover{
     text-decoration: underline;
 }
 
@@ -215,11 +212,11 @@ nav {
     border-radius: 50%;
     text-align: center;
     font-size: 2.5em;
-    text-align: center;
+text-align: center;
 }
 
 .hhhcircle p {
-    color: #f7ffff;
+    color:#f7ffff;
 }
 
 #hhhtekst {
@@ -234,31 +231,130 @@ nav {
 }
 
 .button-hhh {
-
-    background-color: #40638D;
+    
+    background-color:#40638D;
     height: 5vh;
     width: 20vh;
     border-radius: 50px;
-    margin: 5vh auto 10vh auto;
+    margin: 2vh auto 10vh auto;
     padding: 2.5%;
 }
-
 .button-hhh a {
-    color: #f7ffff;
+    color:#f7ffff;
     text-decoration: none;
 }
 
-.button-hhh:hover {
+.button-hhh:hover{
     text-decoration: underline;
 }
 
 /* ------ Produkt afsnit forside ----*/
-#product-heading {}
-
 .product-container {
     position: relative;
-    width: 50%;
+    margin: 5% 0 0 0;
+
 }
+.overlay-heading{
+  position: absolute;
+    top: 40%;
+    width: 100%;
+  opacity: 100%;
+    font-size: 3.5em;
+    text-transform: uppercase;
+     font-weight: bolder;
+    color:#40638D;
+    text-shadow: white 2px 0px;
+}
+
+.overlay-click{
+  position: absolute;
+    top: 70%;
+    width: 100%;
+  opacity: 100%;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:#f7ffff;
+}
+.produktimg {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+
+.overlay-info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 20% 5% 0 5%;
+  opacity: 0;
+    font-size: 1.2em;
+    background-color:#99b7c4;
+      color:#f7ffff;
+    line-height: 130%;
+    
+}
+
+.product-container:active .overlay-info {
+    opacity:100%;
+}
+
+/*----- Om Nuuii forside -----*/
+.headers-index {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#indexomnuuii {
+    margin: 20% 0 0 0;
+}
+.nuuiiinfo {
+    width: 100%;
+    margin: 10% 0 5% 0;
+}
+.nuuiiinfo img {
+    width: 50%;
+    display: block;
+    margin: 5% auto 0 auto; 
+}
+.nuuiiinfo a {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+/* SoMe links til forside */
+#somelinksforside {
+    margin: 15% 0 0 0;
+}
+
+#somelinksforside img {
+    width: 35%;
+    margin: 5% 0 0 0;
+    padding: 0 5% 0 5%;
+}
+
+
+/* ---------- Vejledning index ------*/
+
+#forsidevejledning {
+    margin: 15% 0 0 0;
+}
+#vejledning-header {
+    
+}
+
+#video-guide-index {
+    width: 100%;
+}
+#video-guide-index video {
+    width: 100%;
+    margin-top: 15%;
+}
+
+/*------- FAQ forside ------*/
+
 
 /* --- Footer --- */
 footer {
@@ -266,7 +362,9 @@ footer {
     background-color: #40638D;
 }
 
-p {}
+p{
+   
+}
 
 /* --- Up-arrow --- */
 
@@ -278,8 +376,7 @@ p {}
     padding-top: 40px;
 
 }
-
-#back-to-top-btn {
+#back-to-top-btn{
     display: none;
 }
 
@@ -346,7 +443,6 @@ form {
     margin-right: auto;
     border: solid 1px #2b435b;
     box-shadow: 2px 5px 5px rgb(146,146,146);
-
 }
 
 label {
@@ -356,28 +452,8 @@ label {
     padding-top: 5%;
 }
 
-#fname {
-    padding: 2%;
-}
-
-#email {
-    padding: 2%;
-}
-
-#subject {
-    padding: 2%;
-}
-
-#message {
-    padding: 2%;
-}
-
-#send {
-    padding: 2%;
-}
-
 textarea {
-    width: 80%;
+ width: 80%;   
 }
 
 input {
@@ -400,7 +476,7 @@ input {
 
 
 /*------------------------- Media Query -----------------*/
-/* ---- Media query 750 px ---- */
+/* ---- Media query 750 px ---- */ 
 
 @media screen and (min-width: 750px) {
 
@@ -415,7 +491,7 @@ input {
     #toggle-desk-nav {
         display: block;
     }
-
+    
     footer {
         display: flex;
         flex-direction: row;
@@ -423,24 +499,24 @@ input {
         justify-content: space-around;
         padding-bottom: 4vh;
     }
-
+    
     #footer-logo {
         margin-left: 3vw;
     }
-
+    
     #footer-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
-
+    
     .item-container {
         width: 30vw;
         margin-left: 3vw;
         margin-right: 3vw;
     }
-
+    
     .footer-line {
         width: 30vw;
     }
