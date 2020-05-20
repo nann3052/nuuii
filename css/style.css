@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     color: #40638d;
 }
 
@@ -18,13 +17,13 @@
 
 header {
     width: 100%;
-    background-color: #98b6c4;
+    background-color: #c5cfdb;
 }
 
 nav {
     height: 9vh;
     width: 100%;
-    background-color: #f7ffff;
+    background-color: #f8ffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +109,7 @@ nav {
     top: 9vh;
     right: 0;
     height: 80vh;
-    background-color:#f7ffff;
+    background-color:#f8ffff;
     width: 0vw;
     display: flex;
     flex-direction: column;
@@ -176,7 +175,7 @@ nav {
 
 }
 #button-intro {
-    background-color:#f7ffff;
+    background-color:#f8ffff;
     height: 5vh;
     width: 20vh;
     border-radius: 50px;
@@ -205,7 +204,7 @@ nav {
 .hhhcircle {
     align-content: center;
     margin: auto;
-    background: #99b7c4;
+    background: #c5cfdb;
     width: 25vh;
     height: 25vh;
     line-height: 25vh;
@@ -216,7 +215,7 @@ text-align: center;
 }
 
 .hhhcircle p {
-    color:#f7ffff;
+    color:#f8ffff;
 }
 
 #hhhtekst {
@@ -240,7 +239,7 @@ text-align: center;
     padding: 2.5%;
 }
 .button-hhh a {
-    color:#f7ffff;
+    color:#f8ffff;
     text-decoration: none;
 }
 
@@ -274,7 +273,7 @@ text-align: center;
     font-size: 1em;
     text-transform: uppercase;
     font-weight: bolder;
-    color:#f7ffff;
+    color:#f8ffff;
 }
 .produktimg {
     width: 100%;
@@ -289,8 +288,8 @@ text-align: center;
     padding: 20% 5% 0 5%;
   opacity: 0;
     font-size: 1.2em;
-    background-color:#99b7c4;
-      color:#f7ffff;
+    background-color:#c5cfdb;
+      color:#f8ffff;
     line-height: 130%;
     
 }
@@ -492,6 +491,24 @@ textarea {
 input {
     padding: 1%;
 }
+
+/*----knapper---*/
+
+.ingr-btn {
+    display: inline-block;
+    background-color: #40638d;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px 20px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+}
+
 
 .sub-btn {
     display: inline-block;
