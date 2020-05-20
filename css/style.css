@@ -25,7 +25,7 @@ header {
 nav {
     height: 9vh;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #f7ffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +111,7 @@ nav {
     top: 9vh;
     right: 0;
     height: 80vh;
-    background-color:white;
+    background-color:#f7ffff;
     width: 0vw;
     display: flex;
     flex-direction: column;
@@ -168,25 +168,32 @@ nav {
 }
 
 .intro-container h2 {
-    color:;
+    color:#40638D;
     font-size: 2.0em;
     margin-top: 10vh;
-    font-weight: bolder;
-     text-transform: uppercase;
+    font-weight:bolder;
+    text-transform: uppercase;
 
 }
 #button-intro {
-    background-color:black;
+    background-color:#f7ffff;
     height: 5vh;
     width: 20vh;
     border-radius: 50px;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    padding: 2%;
     
     
 }
-#button-intro a {
+#button-more {
     text-align:center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#button-intro:hover{
+    text-decoration: underline;
 }
 
 /* --- Footer --- */
