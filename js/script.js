@@ -62,9 +62,9 @@ function getIngr() {
 
 // FAQ drop down
 
-const faq = document.querySelector("faq-answer")
+const faq = document.querySelector(".faq-answer")
 
-const i;
+let i;
 
 for(i=0; i <faq.length;i++) {
     faq [i].onclick = function() {
