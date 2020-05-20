@@ -150,15 +150,16 @@ nav {
     margin-top: 10vh;
 }
 
-.intro-container {
+#intro-container {
     background-image: url(../images/heroimage.JPG);
     background-position: center;
     background-size: 140vh;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
+    height: 77vh;
 }
 
-.intro-container h1 {
+#intro-container h1 {
     font-size: 1em;
     font-weight:bold;
     text-transform: uppercase;
@@ -166,10 +167,10 @@ nav {
     text-shadow: white 2px 0px;
 }
 
-.intro-container h2 {
+#intro-container h2 {
     color:#40638D;
     font-size: 2.0em;
-    margin-top: 10vh;
+    margin-top: 17vh;
     font-weight:bolder;
     text-transform: uppercase;
 
@@ -179,9 +180,9 @@ nav {
     height: 5vh;
     width: 20vh;
     border-radius: 50px;
-    margin: auto;
-    margin-top: 5vh;
+    margin: 5vh auto 5vh auto;
     padding: 2%;
+  
     
     
 }
@@ -193,6 +194,68 @@ nav {
 }
 #button-intro:hover{
     text-decoration: underline;
+}
+
+/*----- Hvad hvordan hvorfor section ----*/
+
+#hhh {
+    margin-top: 10vh;
+}
+
+.hhhcircle {
+    align-content: center;
+    margin: auto;
+    background: #99b7c4;
+    width: 25vh;
+    height: 25vh;
+    line-height: 25vh;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.5em;
+text-align: center;
+}
+
+.hhhcircle p {
+    color:#f7ffff;
+}
+
+#hhhtekst {
+    font-size: 1.1em;
+    width: 85%;
+    text-align: center;
+    margin: 5% auto 0 auto;
+}
+
+.hhharea {
+    margin: 5vh auto 5vh auto;
+}
+
+.button-hhh {
+    
+    background-color:#40638D;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 50px;
+    margin: 5vh auto 10vh auto;
+    padding: 2.5%;
+}
+.button-hhh a {
+    color:#f7ffff;
+    text-decoration: none;
+}
+
+.button-hhh:hover{
+    text-decoration: underline;
+}
+
+/* ------ Produkt afsnit forside ----*/
+#product-heading {
+    
+}
+
+.product-container {
+    position: relative;
+    width: 50%;
 }
 
 /* --- Footer --- */
