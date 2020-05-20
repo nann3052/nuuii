@@ -16,7 +16,6 @@
 
 
 header {
-    height: 50px;
     width: 100%;
     background-color: #c5cfdb;
 }
@@ -337,6 +336,7 @@ form {
 }
 
 .container {
+    background-color: #f8ffff;
     width: 90%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -345,6 +345,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     border: solid 1px #2b435b;
+    box-shadow: 2px 5px 5px rgb(146,146,146);
 
 }
 
@@ -381,6 +382,20 @@ textarea {
 
 input {
     padding: 1%;
+}
+
+.sub-btn {
+    display: inline-block;
+    background-color: #40638d;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px 20px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
 }
 
 
