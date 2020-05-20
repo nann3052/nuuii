@@ -47,8 +47,8 @@ function backToTop(){
 }
 
 //ingrediens api
-function getVejleder(){
-    fetch('https://api.myjson.com/bins/16co6k')
+function getIngredienser(){
+    fetch('json/ingredienser.json')
     .then((res) => res.json())
     .then((data) => {
         console.log(data);
