@@ -30,9 +30,9 @@ function scrollUpFunction() {
 }
 
 
-backToTopBtn.addEventListener("click", backToTop);
+/*backToTopBtn.addEventListener("click", backToTop);
 
-/*function backToTop() {
+function backToTop() {
     window.scroll(0, 0);
 }*/
 
@@ -54,19 +54,20 @@ function getIngr() {
     fetch('ingredienser.txt')
         .then((res) => res.text())
         .then((data) => {
-           console.log(data); document.getElementById("output").innerHTML = data;
+            document.getElementById("output").innerHTML = data;
         })
 }
 
-// FAQ drop down
+/*
+/ FAQ drop down
 
-const faq = document.querySelector(".faq-answer")
+const faq = document.querySelector(".faq-answer");
 
 let i;
 
 for (i = 0; i < faq.length; i++) {
     faq[i].onclick = function () {
-        this.classList.toggle("active")
+        this.classList.toggle("active");
 
         const panel = this.nextElementSibling
 
@@ -76,4 +77,4 @@ for (i = 0; i < faq.length; i++) {
             panel.style.maxHeight = panel.scrollHeight + "px"
         }
     }
-}
+}*/
