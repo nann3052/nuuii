@@ -46,3 +46,19 @@ function backToTop(){
     });
 }
 
+//ingrediens api
+function getVejleder(){
+    fetch('https://api.myjson.com/bins/16co6k')
+    .then((res) => res.json())
+    .then((data) => {
+        console.log(data);
+        
+        let output = '';  
+        data.forEach(function(answer){
+            output += `
+             <h3 id="vejleder">Vejleder: ${answer.vejlederA}</h3>
+            `;
+        })
+        document.getElementById('output').innerHTML = output;
+    })
+}
