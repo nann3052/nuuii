@@ -337,16 +337,20 @@ text-align: center;
 }
 
 
-/* SoMe links til forside */
+/* SoMe links */
 #somelinksforside {
     margin: 15% 0 0 0;
     text-align: center;
 }
 
-#somelinksforside img {
+#somelinksforside, #somelinkskontakt img {
     width: 35%;
     margin: 5% 0 0 0;
     padding: 0 5% 0 5%;
+}
+
+#somelinkskontakt {
+    display: block;
 }
 
 
@@ -497,6 +501,7 @@ form {
     padding-right: 8%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8%;
     border: solid 1px #2b435b;
     box-shadow: 2px 5px 5px rgb(146,146,146);
 }
@@ -519,25 +524,12 @@ input {
     max-width: 300px;
 }
 
-#fname {
-    
+
+#fname, #email, #subject, #message, #send {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-#email {
-    
-}
-
-#subject {
-    
-}
-
-#message {
-    
-}
-
-#send {
-    
-}
 
 /*----knapper---*/
 
@@ -545,7 +537,7 @@ input {
     display: inline-block;
     background-color: #40638d;
     color: #fff;
-    font-size: 12px;
+    font-size: 0.8em;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
@@ -561,7 +553,7 @@ input {
     display: inline-block;
     background-color: #40638d;
     color: #fff;
-    font-size: 12px;
+    font-size: 0.8em;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
@@ -569,6 +561,8 @@ input {
     border: 0;
     cursor: pointer;
     text-align: center;
+    max-width: 30%;
+    border-radius: 10px;
 }
 
 /*-----om nuuii----*/
