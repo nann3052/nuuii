@@ -395,40 +395,15 @@ font-size: 1em;
   padding: 2% 5%;
   background-color: white;
   display: none;
-  overflow: hidden;
     text-align: left;
 transition: 0.4s;
 }
 
 .faqarrow {
-    position: absolute;
-    top:2;
-    left:70%;
-    right:10;
-    bottom:10;
-    background-color: black;
-    height: 2px;
-    width: 40px;
-    margin: 10% 0 0 0;
-    overflow: hidden;
-    border-radius: 2.5px;
-    transition: all 0.3s ease;
-}
-#arrow1 {
-    transform: rotate(55deg) translate(-10px,7px);
+    
+    
 }
 
-#arrow2 {
-    transform: rotate(125deg)translate(-10px,-7px);
-}
-
-.toggle #line-1 {
-    transform: rotate(-45deg) translate(-6px, 7px);
-}
-
-.toggle #line-3 {
-    transform: rotate(45deg) translate(-6px, -7px);
-}
 /* --- Footer --- */
 footer {
     height: 50px;
