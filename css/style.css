@@ -460,6 +460,14 @@ p{
 
 /* --- contactformular --- */
 
+
+#contact {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 5%;
+}
+
 form {
     display: block;
 }
@@ -485,11 +493,34 @@ label {
 }
 
 textarea {
- width: 80%;   
+ width: 95%;
+    max-width: 300px;
 }
 
 input {
     padding: 1%;
+    width: 95%;
+    max-width: 300px;
+}
+
+#fname {
+    
+}
+
+#email {
+    
+}
+
+#subject {
+    
+}
+
+#message {
+    
+}
+
+#send {
+    
 }
 
 /*----knapper---*/

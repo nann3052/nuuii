@@ -1,5 +1,5 @@
 function showMobileNav() {
-    
+
     let showMenu = document.querySelector("#nav-links-mobile");
 
     if (showMenu.style.width === "100vw") {
@@ -7,12 +7,12 @@ function showMobileNav() {
     } else {
         showMenu.style.width = "100vw";
     }
-    
+
     // burger animation at toggle
     const burger = document.querySelector("#burger");
-    
+
     burger.classList.toggle("toggle");
-    
+
 }
 
 
@@ -22,23 +22,22 @@ const backToTopBtn = document.querySelector("#back-to-top-btn");
 window.addEventListener("scroll", scrollUpFunction);
 
 function scrollUpFunction() {
-    if (window.pageYOffset > 500){
+    if (window.pageYOffset > 500) {
         backToTopBtn.style.display = "block";
-    }
-    else{
+    } else {
         backToTopBtn.style.display = "none";
     }
 }
 
 
-backToTopBtn.addEventListener("click", backToTop);
+/*backToTopBtn.addEventListener("click", backToTop);
 
-function backToTop(){
+function backToTop() {
     window.scroll(0, 0);
-}
+}*/
 
 
-function backToTop(){
+function backToTop() {
     window.scrollTo({
         top: 0,
         left: 0,
@@ -52,40 +51,30 @@ const getIngrBtnElement = document.getElementById("getIngr");
 getIngrBtnElement.addEventListener("click", getIngr);
 
 function getIngr() {
-    fetch('json/ingredienser.json')
-        .then((res) => res.json())
+    fetch('ingredienser.txt')
+        .then((res) => res.text())
         .then((data) => {
-         let output = '';
             document.getElementById("output").innerHTML = data;
         })
 }
 
+/*
+/ FAQ drop down
 
-
-
-
-
-
-
-
-// FAQ drop down
-
-const faq = document.querySelector(".faq-answer")
+const faq = document.querySelector(".faq-answer");
 
 let i;
 
-for(i=0; i <faq.length;i++) {
-    faq [i].onclick = function() {
-        this.classList.toggle("active")
-        
+for (i = 0; i < faq.length; i++) {
+    faq[i].onclick = function () {
+        this.classList.toggle("active");
+
         const panel = this.nextElementSibling
-        
-        if(panel.style.maxHeight){
+
+        if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
-        }
-        
-        else{
+        } else {
             panel.style.maxHeight = panel.scrollHeight + "px"
         }
     }
-}
+}*/
