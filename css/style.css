@@ -754,4 +754,33 @@ input {
 
 }
 
+   /*---- produktside starter -----*/
 
+#overskrift {
+    text-align: center;
+}
+
+#flexcontainer {
+    display: flex; flex-direction: column; 
+}
+
+#billedeogtekst1 {
+background-color: #f7ffff;
+}
+#billedeogtekst2 {
+    background-color: #f7ffff;
+}
+#billedeogtekst3 {
+    background-color: #f7ffff;
+}
+
+#produkt1 {width: 33%; float: left;}
+#produkt2 {width: 33%; float: left;}
+#produkt3 {width: 33%; float: left;}
+
+
+#slutproduktside {
+    text-align: center;
+}
+
+/*---- produktside slutter -----*/
