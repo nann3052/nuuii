@@ -109,7 +109,7 @@ nav {
     top: 9vh;
     right: 0;
     height: 80vh;
-    background-color:#f8ffff;
+    background-color: #f8ffff;
     width: 0vw;
     display: flex;
     flex-direction: column;
@@ -120,14 +120,15 @@ nav {
     overflow: hidden;
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
-    
-    
+
+
 }
 
 #nav-links-mobile li {
     list-style: none;
-    
+
 }
+
 #mobile-logo img {
     width: 10vh;
 }
@@ -161,38 +162,41 @@ nav {
 
 #intro-container h1 {
     font-size: 1em;
-    font-weight:bold;
+    font-weight: bold;
     text-transform: uppercase;
     margin-top: 2vh;
     text-shadow: white 2px 0px;
 }
 
 #intro-container h2 {
-    color:#40638D;
+    color: #40638D;
     font-size: 2.0em;
     margin-top: 17vh;
-    font-weight:bolder;
+    font-weight: bolder;
     text-transform: uppercase;
 
 }
+
 #button-intro {
-    background-color:#f8ffff;
+    background-color: #f8ffff;
     height: 5vh;
     width: 20vh;
     border-radius: 50px;
     margin: 5vh auto 5vh auto;
     padding: 2%;
-  
-    
-    
+
+
+
 }
+
 #button-more {
-    text-align:center;
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
-#button-intro:hover{
+
+#button-intro:hover {
     text-decoration: underline;
 }
 
@@ -212,11 +216,11 @@ nav {
     border-radius: 50%;
     text-align: center;
     font-size: 2.5em;
-text-align: center;
+    text-align: center;
 }
 
 .hhhcircle p {
-    color:#f8ffff;
+    color: #f8ffff;
 }
 
 #hhhtekst {
@@ -232,7 +236,7 @@ text-align: center;
 }
 
 .button-hhh {
-    
+
     display: block;
     background-color: #40638d;
     color: #fff;
@@ -248,44 +252,48 @@ text-align: center;
     margin-right: auto;
     max-width: 25vh;
 }
+
 .button-hhh a {
-    color:#f8ffff;
+    color: #f8ffff;
     text-decoration: none;
 }
 
-.button-hhh:hover{
+.button-hhh:hover {
     text-decoration: underline;
 }
 
 /* ------ Produkt afsnit forside ----*/
 .product-container {
+    width: 100%;
     position: relative;
     margin: 5% 0 0 0;
     text-align: center;
 
 }
-.overlay-heading{
-  position: absolute;
+
+.overlay-heading {
+    position: absolute;
     top: 40%;
     width: 100%;
-  opacity: 100%;
+    opacity: 100%;
     font-size: 3.5em;
     text-transform: uppercase;
-     font-weight: bolder;
-    color:#40638D;
+    font-weight: bolder;
+    color: #40638D;
     text-shadow: white 2px 0px;
 }
 
-.overlay-click{
-  position: absolute;
+.overlay-click {
+    position: absolute;
     top: 70%;
     width: 100%;
-  opacity: 100%;
+    opacity: 100%;
     font-size: 1em;
     text-transform: uppercase;
     font-weight: bolder;
-    color:#f8ffff;
+    color: #f8ffff;
 }
+
 .produktimg {
     width: 100%;
     margin: 0 auto 0 auto;
@@ -297,17 +305,17 @@ text-align: center;
     height: 100%;
     width: 100%;
     padding: 20% 5% 0 5%;
-  opacity: 0;
+    opacity: 0;
     font-size: 1.2em;
-    background-color:#c5cfdb;
-      color:#f8ffff;
+    background-color: #c5cfdb;
+    color: #f8ffff;
     line-height: 130%;
     text-align: center;
-    
+
 }
 
 .product-container:active .overlay-info {
-    opacity:100%;
+    opacity: 100%;
 }
 
 /*----- Om Nuuii forside -----*/
@@ -322,15 +330,18 @@ text-align: center;
     margin: 20% 0 0 0;
     text-align: center;
 }
+
 .nuuiiinfo {
     width: 100%;
     margin: 10% 0 5% 0;
 }
+
 .nuuiiinfo img {
     width: 50%;
     display: block;
-    margin: 5% auto 0 auto; 
+    margin: 5% auto 0 auto;
 }
+
 .nuuiiinfo a {
     font-size: 2em;
     text-decoration: none;
@@ -343,7 +354,8 @@ text-align: center;
     text-align: center;
 }
 
-#somelinksforside, #somelinkskontakt img {
+#somelinksforside img,
+#somelinkskontakt img {
     width: 35%;
     margin: 5% 0 0 0;
     padding: 0 5% 0 5%;
@@ -395,13 +407,13 @@ text-align: center;
 #forsidevejledning {
     margin: 15% 0 0 0;
 }
-#vejledning-header {
-    
-}
+
+#vejledning-header {}
 
 #video-guide-index {
     width: 100%;
 }
+
 #video-guide-index video {
     width: 100%;
     margin-top: 15%;
@@ -413,45 +425,58 @@ text-align: center;
     text-align: center;
     margin: 50px auto;
 }
+
 .faq-question {
-  background-color:#c5cfdb;
-  color: #f8ffff;
-  cursor: pointer;
-font-size: 1em;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+    background-color: #c5cfdb;
+    color: #f8ffff;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: all 0.4s ease-out;
     margin: 2% 0 0 0;
-     padding: 5%;
+    padding: 5%;
 }
 
-.active, .faq-question:hover {
-  background-color: #40638D;
+.active,
+.faq-question:hover {
+    background-color: #40638D;
+    transition: all 0.4s ease-out;
 }
 
 .faqanswer {
-  padding: 2% 5%;
-  background-color: white;
-  display: none;
+    padding: 2% 5%;
+    background-color: white;
+    display: none;
     text-align: left;
-transition: 0.4s;
+    transition: all 0.4s ease-out;
 }
 
-.faqarrow {
-    
-    
+.faq-question:after {
+    content: '\02C5';
+    font-size: 2.5vh;
+    color: #f8ffff;
+    float: right;
+    margin-left: 40px;
 }
+
+.active:after {
+    content: "\02C4";
+}
+
+#faq-header {
+    margin-bottom: 5vh;
+}
+
 
 /* --- Footer --- */
 footer {
     background-color: #40638D;
 }
 
-p{
-   
-}
+p {}
 
 /* --- Up-arrow --- */
 
@@ -463,7 +488,8 @@ p{
     padding-top: 40px;
 
 }
-#back-to-top-btn{
+
+#back-to-top-btn {
     display: none;
 }
 
@@ -538,7 +564,7 @@ form {
     margin-right: auto;
     margin-top: 8%;
     border: solid 1px #2b435b;
-    box-shadow: 2px 5px 5px rgb(146,146,146);
+    box-shadow: 2px 5px 5px rgb(146, 146, 146);
 }
 
 label {
@@ -549,7 +575,7 @@ label {
 }
 
 textarea {
- width: 95%;
+    width: 95%;
     max-width: 300px;
 }
 
@@ -560,7 +586,11 @@ input {
 }
 
 
-#fname, #email, #subject, #message, #send {
+#fname,
+#email,
+#subject,
+#message,
+#send {
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -606,11 +636,20 @@ input {
     width: 100%;
 }
 
-/*------------------------- Media Query -----------------*/
-/* ---- Media query 750 px ---- */ 
+/*------------------------------ Media Query   -------------------------*/
+/* ---- Media query ??? px ---- */
+
+@media screen and (min-width:)
+
+    
+    
+
+/* ---- Media query 750 px ---- */
 
 @media screen and (min-width: 750px) {
 
+   
+    /*----- Nav bar desktop ----*/
     #nav-links-mobile {
         display: none;
     }
@@ -623,6 +662,8 @@ input {
         display: block;
     }
     
+    /*---- Footer-----*/
+
     footer {
         display: flex;
         flex-direction: row;
@@ -630,26 +671,48 @@ input {
         justify-content: space-around;
         padding-bottom: 4vh;
     }
-    
+
     #footer-logo {
         margin-left: 3vw;
     }
-    
+
     #footer-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
-    
+
     .item-container {
         width: 30vw;
         margin-left: 3vw;
         margin-right: 3vw;
     }
-    
+
     .footer-line {
         width: 30vw;
+    }
+    
+    #hhh {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .hhharea {
+        width: 25%;
+    }
+    
+    
+    #indexprodukter {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .product-container {
+        width: 25%;
+        margin: 2%;
     }
 
 }

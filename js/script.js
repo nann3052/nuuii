@@ -54,13 +54,13 @@ function backToTop() {
 
 // ------ FAQ drop down -----
 
-const acc = document.getElementsByClassName("faq-question");
+const faq = document.getElementsByClassName("faq-question");
 var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+for (i = 0; i < faq.length; i++) {
+  faq[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var faqanswer = this.nextElementSibling;
+   let faqanswer = this.nextElementSibling;
       
     if (faqanswer.style.display === "block") {
       faqanswer.style.display = "none";
