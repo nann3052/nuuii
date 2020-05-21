@@ -109,7 +109,7 @@ nav {
     top: 9vh;
     right: 0;
     height: 80vh;
-    background-color:#f8ffff;
+    background-color: #f8ffff;
     width: 0vw;
     display: flex;
     flex-direction: column;
@@ -120,14 +120,15 @@ nav {
     overflow: hidden;
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
-    
-    
+
+
 }
 
 #nav-links-mobile li {
     list-style: none;
-    
+
 }
+
 #mobile-logo img {
     width: 10vh;
 }
@@ -160,38 +161,49 @@ nav {
 
 #intro-container h1 {
     font-size: 1em;
-    font-weight:bold;
+    font-weight: bold;
     text-transform: uppercase;
     margin-top: 2vh;
     text-shadow: white 2px 0px;
 }
 
 #intro-container h2 {
-    color:#40638D;
+    color: #40638D;
     font-size: 2.0em;
     margin-top: 17vh;
-    font-weight:bolder;
+    font-weight: bolder;
     text-transform: uppercase;
 
 }
+
 #button-intro {
-    background-color:#f8ffff;
-    height: 5vh;
-    width: 20vh;
+    background-color: #f8ffff;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px 20px;
+    border: 0;
+    text-align: center;
     border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25vh;
     margin: 5vh auto 5vh auto;
     padding: 2%;
-  
-    
-    
+
+
+
 }
+
 #button-more {
-    text-align:center;
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
-#button-intro:hover{
+
+#button-intro:hover {
     text-decoration: underline;
 }
 
@@ -211,11 +223,11 @@ nav {
     border-radius: 50%;
     text-align: center;
     font-size: 2.5em;
-text-align: center;
+    text-align: center;
 }
 
 .hhhcircle p {
-    color:#f8ffff;
+    color: #f8ffff;
 }
 
 #hhhtekst {
@@ -231,11 +243,11 @@ text-align: center;
 }
 
 .button-hhh {
-    
+
     display: block;
     background-color: #40638d;
     color: #fff;
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
@@ -247,12 +259,13 @@ text-align: center;
     margin-right: auto;
     max-width: 25vh;
 }
+
 .button-hhh a {
-    color:#f8ffff;
+    color: #f8ffff;
     text-decoration: none;
 }
 
-.button-hhh:hover{
+.button-hhh:hover {
     text-decoration: underline;
 }
 
@@ -262,28 +275,30 @@ text-align: center;
     margin: 5% 0 0 0;
 
 }
-.overlay-heading{
-  position: absolute;
+
+.overlay-heading {
+    position: absolute;
     top: 40%;
     width: 100%;
-  opacity: 100%;
+    opacity: 100%;
     font-size: 3.5em;
     text-transform: uppercase;
-     font-weight: bolder;
-    color:#40638D;
+    font-weight: bolder;
+    color: #40638D;
     text-shadow: white 2px 0px;
 }
 
-.overlay-click{
-  position: absolute;
+.overlay-click {
+    position: absolute;
     top: 70%;
     width: 100%;
-  opacity: 100%;
+    opacity: 100%;
     font-size: 1em;
     text-transform: uppercase;
     font-weight: bolder;
-    color:#f8ffff;
+    color: #f8ffff;
 }
+
 .produktimg {
     width: 100%;
     margin: 0 auto 0 auto;
@@ -295,16 +310,16 @@ text-align: center;
     height: 100%;
     width: 100%;
     padding: 20% 5% 0 5%;
-  opacity: 0;
+    opacity: 0;
     font-size: 1.2em;
-    background-color:#c5cfdb;
-      color:#f8ffff;
+    background-color: #c5cfdb;
+    color: #f8ffff;
     line-height: 130%;
-    
+
 }
 
 .product-container:active .overlay-info {
-    opacity:100%;
+    opacity: 100%;
 }
 
 /*----- Om Nuuii forside -----*/
@@ -317,15 +332,18 @@ text-align: center;
 #indexomnuuii {
     margin: 20% 0 0 0;
 }
+
 .nuuiiinfo {
     width: 100%;
     margin: 10% 0 5% 0;
 }
+
 .nuuiiinfo img {
     width: 50%;
     display: block;
-    margin: 5% auto 0 auto; 
+    margin: 5% auto 0 auto;
 }
+
 .nuuiiinfo a {
     font-size: 2em;
     text-decoration: none;
@@ -349,13 +367,13 @@ text-align: center;
 #forsidevejledning {
     margin: 15% 0 0 0;
 }
-#vejledning-header {
-    
-}
+
+#vejledning-header {}
 
 #video-guide-index {
     width: 100%;
 }
+
 #video-guide-index video {
     width: 100%;
     margin-top: 15%;
@@ -367,25 +385,27 @@ text-align: center;
     text-align: center;
     margin: 50px auto;
 }
+
 button.faq-dropdown {
     font-size: 1.1em;
-    background:#f7ffff;
-    border:0;
+    background: #f7ffff;
+    border: 0;
     cursor: pointer;
-    color:blue;
+    color: blue;
     padding: 18px;
     width: 80%;
     text-align: left;
-    transition:0.4s ease-out;
+    transition: 0.4s ease-out;
 }
 
-button.faq-dropdown:active, button.faq-dropdown:hover {
+button.faq-dropdown:active,
+button.faq-dropdown:hover {
     background-color: aqua;
-    
+
 }
 
-button:focus{
-    outline:none;
+button:focus {
+    outline: none;
 }
 
 div.faq-answer {
@@ -403,9 +423,7 @@ footer {
     background-color: #40638D;
 }
 
-p{
-   
-}
+p {}
 
 /* --- Up-arrow --- */
 
@@ -417,7 +435,8 @@ p{
     padding-top: 40px;
 
 }
-#back-to-top-btn{
+
+#back-to-top-btn {
     display: none;
 }
 
@@ -491,7 +510,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     border: solid 1px #2b435b;
-    box-shadow: 2px 5px 5px rgb(146,146,146);
+    box-shadow: 2px 5px 5px rgb(146, 146, 146);
 }
 
 label {
@@ -502,7 +521,7 @@ label {
 }
 
 textarea {
- width: 95%;
+    width: 95%;
     max-width: 300px;
 }
 
@@ -512,25 +531,15 @@ input {
     max-width: 300px;
 }
 
-#fname {
-    
-}
+#fname {}
 
-#email {
-    
-}
+#email {}
 
-#subject {
-    
-}
+#subject {}
 
-#message {
-    
-}
+#message {}
 
-#send {
-    
-}
+#send {}
 
 /*----knapper---*/
 
@@ -570,26 +579,38 @@ input {
     width: 100%;
 }
 
-#vaerdier, #historie, #miljo, #emballage, #dansk {
+#vaerdier,
+#historie,
+#miljo,
+#emballage,
+#dansk {
     width: 80%;
     margin: auto auto;
     padding-top: 8%;
 }
 
-#vaerdier, #historie, #miljo, #emballage, #dansk h2 {
+#vaerdier,
+#historie,
+#miljo,
+#emballage,
+#dansk h2 {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    
+
 }
 
-.vaerdier, .historie, .miljo, .emballage, .dansk {
+.vaerdier,
+.historie,
+.miljo,
+.emballage,
+.dansk {
     padding-left: 3%;
     margin: auto auto;
 }
 
 /*------------------------- Media Query -----------------*/
-/* ---- Media query 750 px ---- */ 
+/* ---- Media query 750 px ---- */
 
 @media screen and (min-width: 750px) {
 
@@ -604,7 +625,7 @@ input {
     #toggle-desk-nav {
         display: block;
     }
-    
+
     footer {
         display: flex;
         flex-direction: row;
@@ -612,24 +633,24 @@ input {
         justify-content: space-around;
         padding-bottom: 4vh;
     }
-    
+
     #footer-logo {
         margin-left: 3vw;
     }
-    
+
     #footer-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
-    
+
     .item-container {
         width: 30vw;
         margin-left: 3vw;
         margin-right: 3vw;
     }
-    
+
     .footer-line {
         width: 30vw;
     }
