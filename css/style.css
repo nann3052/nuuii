@@ -757,7 +757,20 @@ input {
    /*---- produktside starter -----*/
 
 #overskrift {
+    margin-top: 40px;
     text-align: center;
+    font-size: 40px;
+}
+
+#underoverskrift {
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#produktbeskrivelse {
+    line-height: 30px;
+    padding: 20px;
 }
 
 #flexcontainer {
@@ -766,17 +779,20 @@ input {
 
 #billedeogtekst1 {
 background-color: #f7ffff;
+    margin-left: 300px; margin-right: 300px; margin-top: 40px; text-align: center;
 }
 #billedeogtekst2 {
     background-color: #f7ffff;
+    margin-left: 300px; margin-right: 300px; margin-top: 50px; text-align: center
 }
 #billedeogtekst3 {
     background-color: #f7ffff;
+    margin-left: 300px; margin-right: 300px; margin-top: 50px; text-align: center
 }
 
-#produkt1 {width: 33%; float: left;}
-#produkt2 {width: 33%; float: left;}
-#produkt3 {width: 33%; float: left;}
+#produkt1 {width: 33%; float: left; margin-right: 20px;}
+#produkt2 {width: 33%; float: right; margin-right: 20px; }
+#produkt3 {width: 33%; float: left; margin-right: 20px;}
 
 
 #slutproduktside {
