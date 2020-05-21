@@ -15,6 +15,7 @@ function showMobileNav() {
 
 }
 
+/*
 
 //Up-arrow animation
 const backToTopBtn = document.querySelector("#back-to-top-btn");
@@ -30,11 +31,13 @@ function scrollUpFunction() {
 }
 
 
-/*backToTopBtn.addEventListener("click", backToTop);
+backToTopBtn.addEventListener("click", backToTop);
 
 function backToTop() {
     window.scroll(0, 0);
-}*/
+}
+
+*/
 
 
 function backToTop() {
@@ -58,23 +61,24 @@ function getIngr() {
         })
 }
 
-/*
-/ FAQ drop down
+
+ 
+// FAQ drop down
 
 const faq = document.querySelector(".faq-answer");
 
 let i;
 
 for (i = 0; i < faq.length; i++) {
-    faq[i].onclick = function () {
+    faq[i].addEventListener("click", function() {
         this.classList.toggle("active");
 
-        const panel = this.nextElementSibling
+        let panel = this.nextElementSibling;
 
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
         } else {
             panel.style.maxHeight = panel.scrollHeight + "px"
         }
-    }
-}*/
+    });
+}
