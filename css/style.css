@@ -570,6 +570,24 @@ input {
     width: 100%;
 }
 
+#vaerdier, #historie, #miljo, #emballage, #dansk {
+    width: 80%;
+    margin: auto auto;
+    padding-top: 8%;
+}
+
+#vaerdier, #historie, #miljo, #emballage, #dansk h2 {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+.vaerdier, .historie, .miljo, .emballage, .dansk {
+    padding-left: 3%;
+    margin: auto auto;
+}
+
 /*------------------------- Media Query -----------------*/
 /* ---- Media query 750 px ---- */ 
 

@@ -14,48 +14,47 @@
 
 <body>
 
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="index.html"><img src="images/leaflogo.png" alt=" nuuii logo"></a>
+            </div>
 
-  <nav>
-        <div id="logo">
-            <a href="index.html"><img src="images/leaflogo.png" alt=" nuuii logo"></a>
-        </div>
-        
-        <div id="burger" onclick="showMobileNav()">
-            <div class="burger-line" id="line-1"></div>
-            <div class="burger-line" id="line-2"></div>
-            <div class="burger-line" id="line-3"></div>
-        </div>
-        
-        <div id="toggle-desk-nav">
-            <ul id="nav-links-desktop">
-                
-                <li><a href="produkter.html">Produkter</a></li>
+            <div id="burger" onclick="showMobileNav()">
+                <div class="burger-line" id="line-1"></div>
+                <div class="burger-line" id="line-2"></div>
+                <div class="burger-line" id="line-3"></div>
+            </div>
+
+            <div id="toggle-desk-nav">
+                <ul id="nav-links-desktop">
+
+                    <li><a href="produkter.html">Produkter</a></li>
+                    <li><a href="vejledning.html">Vejledning</a></li>
+                    <li><a href="omnuuii.html">Om Nuuii</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <ul id="nav-links-mobile">
+                <li id="mobile-logo" class="show-links"><a href="index.html"><img src="images/leaflogo.png" alt="logo"></a></li>
+                <li class="show-links"><a href="produkter.html">Produkter</a></li>
                 <li><a href="vejledning.html">Vejledning</a></li>
-                <li><a href="omnuuii.html">Om Nuuii</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
-        </div>
-        
-        <ul id="nav-links-mobile">
-            <li id="mobile-logo" class="show-links"><a href="index.html"><img src="images/leaflogo.png" alt="logo"></a></li>
-            <li class="show-links"><a href="produkter.html">Produkter</a></li>
-             <li><a href="vejledning.html">Vejledning</a></li>
-            <li class="show-links"><a href="omnuuii.html">Om Nuuii</a></li>
-            <li class="show-links"><a href="kontakt.html">Kontakt</a></li>
-            
-        </ul>
-    </nav>
+                <li class="show-links"><a href="omnuuii.html">Om Nuuii</a></li>
+                <li class="show-links"><a href="kontakt.html">Kontakt</a></li>
 
+            </ul>
+        </nav>
+
+    </header>
     <main>
-        <header>
-            Om Nuuii
-        </header>
+
 
         <article id="vaerdier">
             <img src="images/icons/vaerdier.png" class="icon-mobil-omnuuii" alt="værdier">
             <section>
                 <h2>Værdier</h2>
-                <p>Alle vores produkter udspringer af tanken om vand transporteres i vandrørene - ikke på vejene. Vores produkter er pakket i papir, men vi sparer også en masse CO2 fordi vi ikke skal køre en masse vand rundt på landevejene.
+                <p class="vaerdier">Alle vores produkter udspringer af tanken om vand transporteres i vandrørene - ikke på vejene. Vores produkter er pakket i papir, men vi sparer også en masse CO2 fordi vi ikke skal køre en masse vand rundt på landevejene.
                 </p>
             </section>
         </article>
@@ -64,16 +63,16 @@
             <img src="images/icons/historie.png" class="icon-mobil-omnuuii" alt="Historie">
             <section>
                 <h2>Historie</h2>
-                <p>Nuuii er en lille virksomhed drevet af en håndfuld entuisaster inde for miljø Virksomheden startede fordi min søster og jeg kunne se et stort potenitale inde for bæredygtige rengøringsmidler - og en potientel stor efterspørgsel
+                <p class="historie">Nuuii er en lille virksomhed drevet af en håndfuld entuisaster inde for miljø Virksomheden startede fordi min søster og jeg kunne se et stort potenitale inde for bæredygtige rengøringsmidler - og en potientel stor efterspørgsel
                 </p>
             </section>
-        </article >
+        </article>
 
         <article id="miljo">
             <img src="images/icons/miljo.png" class="icon-mobil-omnuuii" alt="Miljøet">
             <section>
                 <h2>Miljøet</h2>
-                <p>Vand tilsættes hjemme hos dig. Det betyder at vi sparer transporten af en helt masse vand. De aktive ingredienser i sæbe og rengøringsmidler udgør ofte kun 10-20%, så spares der rigtigt meget CO2 ved kun at transportere de aktive ingredienser.
+                <p class="miljo">Vand tilsættes hjemme hos dig. Det betyder at vi sparer transporten af en helt masse vand. De aktive ingredienser i sæbe og rengøringsmidler udgør ofte kun 10-20%, så spares der rigtigt meget CO2 ved kun at transportere de aktive ingredienser.
                 </p>
             </section>
         </article>
@@ -82,7 +81,7 @@
             <img src="images/icons/emballage.png" class="icon-mobil-omnuuii" alt="Emballage">
             <section>
                 <h2>Emballage</h2>
-                <p>Vi arbejder kun med papir-emballage. Det kan vi, fordi vores produkter ikke indeholder vand Ligesom vores produkter, skal vores emballage produceres tæt på os og leve op til strenge krav – for vi tror på gennemført miljøvenlighed. Vores emballage er derfor Cradle-to-Cradle-certificeret og miljøneutral.
+                <p class="emballage">Vi arbejder kun med papir-emballage. Det kan vi, fordi vores produkter ikke indeholder vand Ligesom vores produkter, skal vores emballage produceres tæt på os og leve op til strenge krav – for vi tror på gennemført miljøvenlighed. Vores emballage er derfor Cradle-to-Cradle-certificeret og miljøneutral.
                 </p>
             </section>
         </article>
@@ -91,16 +90,18 @@
             <img src="images/icons/danskproduceret.png" class="icon-mobil-omnuuii" alt="Dansk">
             <section>
                 <h2>Dansk</h2>
-                <p>Nuuiis produkter er designet, udviklet og produceret i Danmark. I Danmark er der stor viden om at producere grønne, bæredygtige produkter. Vi vil gerne medvirke til at skabe danske arbejdspladser og et bedre miljø.
+                <p class="dansk">Nuuiis produkter er designet, udviklet og produceret i Danmark. I Danmark er der stor viden om at producere grønne, bæredygtige produkter. Vi vil gerne medvirke til at skabe danske arbejdspladser og et bedre miljø.
                 </p>
             </section>
         </article>
-        
-        
+
+         <div id="scroll-container">
+                <div id="back-to-top-btn" style="display: none;"><img src="images/icons/top-arrow.svg" alt="arrow-up" class="pulsate-bck"></div>
+            </div>
     </main>
-    
+
     <script src=" js/script.js "></script>
-    
+
 </body>
 
 </html>
