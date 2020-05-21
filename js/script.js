@@ -1,3 +1,4 @@
+
 function showMobileNav() {
 
     let showMenu = document.querySelector("#nav-links-mobile");
@@ -37,7 +38,7 @@ function backToTop() {
     window.scroll(0, 0);
 }
 
-*/
+
 
 
 function backToTop() {
@@ -47,8 +48,32 @@ function backToTop() {
         behavior: "smooth"
     });
 }
+*/
 
-//ingrediens api
+
+
+// ------ FAQ drop down -----
+
+const acc = document.getElementsByClassName("faq-question");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var faqanswer = this.nextElementSibling;
+      
+    if (faqanswer.style.display === "block") {
+      faqanswer.style.display = "none";
+    } else {
+      faqanswer.style.display = "block";
+    }
+  });
+}
+
+
+
+
+// ------ ingredienser API Fetch -----
 const getIngrBtnElement = document.getElementById("getIngr");
 
 getIngrBtnElement.addEventListener("click", getIngr);
@@ -63,22 +88,3 @@ function getIngr() {
 
 
  
-// FAQ drop down
-
-const faq = document.querySelector(".faq-answer");
-
-let i;
-
-for (i = 0; i < faq.length; i++) {
-    faq[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-
-        let panel = this.nextElementSibling;
-
-        if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-        } else {
-            panel.style.maxHeight = panel.scrollHeight + "px"
-        }
-    });
-}

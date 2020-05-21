@@ -150,6 +150,7 @@ nav {
 }
 
 #intro-container {
+    text-align: center;
     background-image: url(../images/heroimage.JPG);
     background-position: center;
     background-size: 140vh;
@@ -260,6 +261,7 @@ text-align: center;
 .product-container {
     position: relative;
     margin: 5% 0 0 0;
+    text-align: center;
 
 }
 .overlay-heading{
@@ -313,10 +315,12 @@ text-align: center;
     text-transform: uppercase;
     font-size: 2.5em;
     font-weight: bolder;
+    text-align: center;
 }
 
 #indexomnuuii {
     margin: 20% 0 0 0;
+    text-align: center;
 }
 .nuuiiinfo {
     width: 100%;
@@ -336,6 +340,7 @@ text-align: center;
 /* SoMe links til forside */
 #somelinksforside {
     margin: 15% 0 0 0;
+    text-align: center;
 }
 
 #somelinksforside img {
@@ -368,36 +373,62 @@ text-align: center;
     text-align: center;
     margin: 50px auto;
 }
-button.faq-dropdown {
-    font-size: 1.1em;
-    background:#f7ffff;
-    border:0;
-    cursor: pointer;
-    color:blue;
-    padding: 18px;
-    width: 80%;
+.faq-question {
+  background-color:#c5cfdb;
+  color: #f8ffff;
+  cursor: pointer;
+font-size: 1em;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+    margin: 2% 0 0 0;
+     padding: 5%;
+}
+
+.active, .faq-question:hover {
+  background-color: #40638D;
+}
+
+.faqanswer {
+  padding: 2% 5%;
+  background-color: white;
+  display: none;
+  overflow: hidden;
     text-align: left;
-    transition:0.4s ease-out;
+transition: 0.4s;
 }
 
-button.faq-dropdown:active, button.faq-dropdown:hover {
-    background-color: aqua;
-    
-}
-
-button:focus{
-    outline:none;
-}
-
-div.faq-answer {
-    padding: 0 18px;
-    max-height: 0;
+.faqarrow {
+    position: absolute;
+    top:2;
+    left:70%;
+    right:10;
+    bottom:10;
+    background-color: black;
+    height: 2px;
+    width: 40px;
+    margin: 10% 0 0 0;
     overflow: hidden;
-    width: 67%;
-    margin: 0 auto;
-    transition: max-height 0.2s ease-out;
+    border-radius: 2.5px;
+    transition: all 0.3s ease;
+}
+#arrow1 {
+    transform: rotate(55deg) translate(-10px,7px);
 }
 
+#arrow2 {
+    transform: rotate(125deg)translate(-10px,-7px);
+}
+
+.toggle #line-1 {
+    transform: rotate(-45deg) translate(-6px, 7px);
+}
+
+.toggle #line-3 {
+    transform: rotate(45deg) translate(-6px, -7px);
+}
 /* --- Footer --- */
 footer {
     height: 50px;
