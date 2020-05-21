@@ -204,6 +204,7 @@ nav {
 
 #hhh {
     margin-top: 10vh;
+    display: block;
 }
 
 .hhhcircle {
@@ -233,6 +234,7 @@ nav {
 
 .hhharea {
     margin: 5vh auto 5vh auto;
+    width: 100%;
 }
 
 .button-hhh {
@@ -334,17 +336,20 @@ nav {
 .nuuiiinfo {
     width: 100%;
     margin: 10% 0 5% 0;
+    transition: 0.4s ease-out;
 }
 
 .nuuiiinfo img {
     width: 50%;
     display: block;
     margin: 5% auto 0 auto;
+      transition: 0.4s ease-out;
 }
 
 .nuuiiinfo a {
     font-size: 2em;
     text-decoration: none;
+      transition: 0.4s ease-out;
 }
 
 
@@ -604,7 +609,6 @@ input {
 /*------------------------------ Media Query   -------------------------*/
 /* ---- Media query ??? px ---- */
 
-@media screen and (min-width:)
 
     
     
@@ -662,10 +666,14 @@ input {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-bottom: 10%;
     }
-    
+    #hhhtekst {
+        height: 150px;
+    }
     .hhharea {
         width: 25%;
+        padding: 2% 0;
     }
     
     
@@ -676,8 +684,39 @@ input {
         
     }
     .product-container {
-        width: 25%;
-        margin: 2%;
+        width: 28%;
+        margin: 5% auto;
+        
     }
+    .overlay-heading {
+        font-size: 2em;
+    }
+    
+    #indexomnuuii {
+        margin: 10% auto;
+    
+    }
+    #omnuuiiflexcontainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+   
+    .nuuiiinfo {
+        width: 33%;
+        margin: 1% auto;
+    }
+    
+    
+    .nuuiiinfo a:hover {
+        font-weight: bolder;
+        text-decoration: underline;
+        width: 60%;
+        
+    }
+    
+    
 
 }
+
+
