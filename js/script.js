@@ -60,6 +60,14 @@ function getIngr() {
         })
 }
 
+
+
+
+
+
+
+
+
 // FAQ drop down
 
 const faq = document.querySelector(".faq-answer")
