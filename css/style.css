@@ -343,13 +343,13 @@ nav {
     width: 50%;
     display: block;
     margin: 5% auto 0 auto;
-      transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
 }
 
 .nuuiiinfo a {
     font-size: 2em;
     text-decoration: none;
-      transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
 }
 
 
@@ -366,7 +366,7 @@ nav {
     padding: 0 5% 0 5%;
 }
 
-#somelinkskontakt img  {
+#somelinkskontakt img {
     width: 50%;
 }
 
@@ -376,7 +376,10 @@ nav {
     margin: auto auto;
 }
 
-.kontaktlinkd, .kontaktinsta, .kontaktfb, .kontaktmail {
+.kontaktlinkd,
+.kontaktinsta,
+.kontaktfb,
+.kontaktmail {
     padding-top: 4%;
     width: 40%;
     display: inline-block;
@@ -387,13 +390,13 @@ nav {
 }
 
 #somelinksfooter {
-     width: 95%;
+    width: 95%;
     padding: 2%;
     margin: auto auto;
 }
 
 #somelinksfooter img {
-     width: 50%;
+    width: 50%;
     margin: 5% 0 0 0;
     padding: 0 5% 0 5%;
 }
@@ -403,7 +406,8 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-#somelinksfooter a, #somelinkskontakt a {
+#somelinksfooter a,
+#somelinkskontakt a {
     text-decoration: none;
 }
 
@@ -412,24 +416,25 @@ nav {
 #forsidevejledning {
     margin: 15% 0 0 0;
 }
-#forsidevejledning p {
+
+.text-video {
     display: none;
 }
 
 #vejledning-header {}
 
-#video-guide-index {
+.video-guide-index {
     width: 100%;
 }
 
-#video-guide-index video {
+.video-guide-index video {
     width: 100%;
     margin-top: 15%;
 }
 
 /*------- FAQ forside ------*/
 
-#indexfaq {
+.indexfaq {
     text-align: center;
     margin: 50px auto;
 }
@@ -645,12 +650,13 @@ input {
 }
 
 
-   /*---- produktside starter -----*/
+/*---- produktside starter -----*/
 
-#overskrift {
+.headings-top {
     margin-top: 40px;
     text-align: center;
     font-size: 40px;
+    text-transform: uppercase;
 }
 
 #underoverskrift {
@@ -666,25 +672,51 @@ input {
 }
 
 #flexcontainer {
-    display: flex; flex-direction: column; 
+    display: flex;
+    flex-direction: column;
 }
 
 #billedeogtekst1 {
-background-color: #f7ffff;
-    margin-left: 300px; margin-right: 300px; margin-top: 40px; text-align: center;
-}
-#billedeogtekst2 {
     background-color: #f7ffff;
-    margin-left: 300px; margin-right: 300px; margin-top: 50px; text-align: center
-}
-#billedeogtekst3 {
-    background-color: #f7ffff;
-    margin-left: 300px; margin-right: 300px; margin-top: 50px; text-align: center
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+    text-align: center;
 }
 
-#produkt1 {width: 33%; float: left; margin-right: 20px;}
-#produkt2 {width: 33%; float: right; margin-right: 20px; }
-#produkt3 {width: 33%; float: left; margin-right: 20px;}
+#billedeogtekst2 {
+    background-color: #f7ffff;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    text-align: center
+}
+
+#billedeogtekst3 {
+    background-color: #f7ffff;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    text-align: center
+}
+
+#produkt1 {
+    width: 33%;
+    float: left;
+    margin-right: 20px;
+}
+
+#produkt2 {
+    width: 33%;
+    float: right;
+    margin-right: 20px;
+}
+
+#produkt3 {
+    width: 33%;
+    float: left;
+    margin-right: 20px;
+}
 
 
 #slutproduktside {
@@ -697,40 +729,76 @@ background-color: #f7ffff;
 
 
 
+/* ------ Vejledning underside -----*/
+
+
+#need-answers h3 {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#kontakt-btn {
+    background-color: #c5cfdb;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 50px;
+    margin: 5vh auto 5vh auto;
+    text-align: center;
+    color: #f8ffff;
+    transition: 0.3s ease-out;
+    padding: 2.5%;
+}
+
+#kontakt-link {
+
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#kontakt-btn:hover {
+    background-color: #40638d;
+}
+
+
 /*------------------------------ Media Query   -------------------------*/
 /* ---- Media query 500 px ---- */
 @media screen and (min-width: 500px) {
+
     /* Produkter forside */
     .overlay-heading {
         font-size: 4.5em;
         margin-bottom: 0;
     }
+
     .overlay-click {
         font-size: 1.5em;
     }
+
     .overlay-info {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    padding: 20% 5% 0 5%;
-    opacity: 0;
-    font-size: 1.6em;
-    background-color: #c5cfdb;
-    color: #f8ffff;
-    line-height: 130%;
-    text-align: center; 
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 20% 5% 0 5%;
+        opacity: 0;
+        font-size: 1.6em;
+        background-color: #c5cfdb;
+        color: #f8ffff;
+        line-height: 130%;
+        text-align: center;
     }
-    
+
 }
 
-    
-    
+
+
 
 /* ---- Media query 750 px ---- */
 
 @media screen and (min-width: 750px) {
 
-   
+
     /*----- Nav bar desktop ----*/
     #nav-links-mobile {
         display: none;
@@ -743,7 +811,7 @@ background-color: #f7ffff;
     #toggle-desk-nav {
         display: block;
     }
-    
+
     /*---- Footer-----*/
 
     footer {
@@ -774,181 +842,217 @@ background-color: #f7ffff;
     .footer-line {
         width: 30vw;
     }
-    
+
     #hhh {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-bottom: 10%;
     }
+
     #hhhtekst {
         height: 150px;
     }
+
     .hhharea {
         width: 25%;
         padding: 2% 0;
     }
-    
-    
+
+
     #indexprodukter {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        
+
     }
+
     .product-container {
         width: 28%;
         margin: 5% auto;
-        
+
     }
+
     .overlay-heading {
         font-size: 2em;
     }
-      .overlay-click {
+
+    .overlay-click {
         font-size: 1em;
     }
+
     .overlay-info {
-        font-size:0.8em;
+        font-size: 0.8em;
     }
-    
+
     #indexomnuuii {
         margin: 10% auto;
-    
+
     }
+
     #omnuuii-heading {
         margin-bottom: 5%;
     }
+
     #omnuuiiflexcontainer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-   
+
     .nuuiiinfo {
         width: 33%;
         margin: 1% auto;
     }
-    
-    
+
+
     .nuuiiinfo a:hover {
         font-weight: bolder;
         text-decoration: underline;
         width: 60%;
-        
+
     }
-    
+
     #somelinksforside img {
         width: 25%;
     }
-    
-    #forsidevejledning p {
-    display: block;
+
+    .text-video {
+        display: block;
         text-align: center;
         margin: 5% auto 0 auto;
-}
-    
-     #indexfaq {
+    }
+
+    .indexfaq {
         width: 80vw;
     }
-    #video-guide-index video {
-        margin-top: 5%;
+
+    .video-guide-index video {
+      margin-top: 5%;
     }
-    
+
+    /*----- vjledning underside -----*/
+    #kontakt-btn {
+        padding: 2.2%;
+        font-size: 1.3em;
+        height: 7vh;
+        width: 22vh;
+    }
+
 }
+
 /*------ Media query 900 px width --------*/
 @media screen and (min-width: 900px) {
-     .nuuiiinfo {
+    .nuuiiinfo {
         width: 25%;
         margin: 1% auto;
     }
-    #indexfaq {
+
+    .indexfaq {
         width: 70vw;
     }
-    
-    #intro-container h2 {
-    margin-top: 10vh;
-   
-}
 
-    #button-intro{
+    #intro-container h2 {
+        margin-top: 10vh;
+
+    }
+
+    #button-intro {
         padding-top: 1%;
         text-align: center;
     }
+
     #button-more {
-       margin-top: 10%;
+        margin-top: 10%;
+    }
+
+#kontakt-btn {
+        padding: 1.5%;
+        font-size: 1.3em;
+        height: 7vh;
+        width: 22vh;
     }
 
 
-    
 }
 
 /*------ Media query 1000 px width --------*/
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
     #intro-container {
-    background-image: url(../images/heroimage.JPG);
-    background-size: 100%;
-    height: 70vh;
+        background-image: url(../images/heroimage.JPG);
+        background-size: 100%;
+        height: 70vh;
     }
-    
-    #hero-logo {
-    width: 50vh;
-    margin-top: 10vh;
-}
 
-    
-    
+    #hero-logo {
+        width: 50vh;
+        margin-top: 10vh;
+    }
+
+
+
     .overlay-info {
-        font-size:1.1em;
+        font-size: 1.1em;
     }
+
     #button-intro {
-    background-color: #f8ffff;
-    height: 5vh;
-    width: 25vh;
-    border-radius: 50px;
-   
+        background-color: #f8ffff;
+        height: 5vh;
+        width: 25vh;
+        border-radius: 50px;
+
     }
-    #button-more {
-        
-    }
+
+    #button-more {}
+
     .nuuiiinfo {
         width: 20%;
         margin: 0 auto;
     }
+
     #somelinksforside img {
         width: 20%;
     }
-    
+
 }
 
 /*------ Media query 1200 px width --------*/
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     #hhh {
         margin: 5% auto;
         width: 70%;
     }
+
     #indexomnuuii {
         width: 90%;
         margin: 5% auto;
     }
+
     #somelinksforside {
         margin: 10% auto;
     }
+
     #forsidevejledning {
         margin: 5% auto;
     }
+
     .overlay-info {
         font-size: 1.3em;
     }
-    
-    #video-guide-index {
+
+    .video-guide-index {
         margin: 2% auto;
         display: block;
     }
-    #video-guide-index video {
+
+    .video-guide-index video {
         width: 80%;
         margin: 2% auto;
-          display: block;
+        display: block;
     }
+    #kontakt-btn {
+        padding: 1.2%;
+    
+    }
+
 }
-
-
