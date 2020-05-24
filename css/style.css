@@ -748,6 +748,12 @@ input {
     color: #f8ffff;
     transition: 0.3s ease-out;
     padding: 2.5%;
+    display: inline-block;
+    
+    
+    font-size: 0.8em;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 #kontakt-link {
