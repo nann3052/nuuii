@@ -7,14 +7,10 @@
     color: #40638d;
 }
 
-
-
 #wrapper {
     background-color: white;
     width: 100%;
 }
-
-
 
 header {
     height: 50px;
@@ -33,6 +29,7 @@ nav {
     top: 0;
 }
 
+
 /* --- Logo Nav --- */
 
 #logo {
@@ -43,6 +40,7 @@ nav {
 #logo img {
     height: 100%;
 }
+
 
 /* --- Burger Nav --- */
 
@@ -72,6 +70,7 @@ nav {
     transform: rotate(50deg) translate(-6px, -7px);
 }
 
+
 /* --- Nav-desktop --- */
 
 #toggle-desk-nav {
@@ -91,8 +90,6 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 #nav-links-desktop a {
     text-decoration: none;
     color: #40638D;
@@ -104,6 +101,7 @@ nav {
     color: #7db7c7;
 }
 
+
 /* --- Nav-mobile --- */
 
 #nav-links-mobile {
@@ -111,7 +109,7 @@ nav {
     top: 9vh;
     right: 0;
     height: 70vh;
-    background-color:white;
+    background-color: white;
     width: 0vw;
     display: flex;
     flex-direction: column;
@@ -122,14 +120,12 @@ nav {
     overflow: hidden;
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
-    
-    
 }
 
 #nav-links-mobile li {
     list-style: none;
-    
 }
+
 #mobile-logo img {
     width: 10vh;
 }
@@ -145,7 +141,9 @@ nav {
     color: #40638D;
 }
 
+
 /*------- HERO image index -----*/
+
 #hero-logo {
     width: 50vw;
     margin-top: 10vh;
@@ -171,15 +169,16 @@ nav {
     margin-top: 10vh;
 }
 
+
 /* --- Footer --- */
+
 footer {
     height: 50px;
     background-color: #40638D;
 }
 
-p{
-   
-}
+p {}
+
 
 /* --- Up-arrow --- */
 
@@ -189,9 +188,9 @@ p{
     margin-right: auto;
     display: block;
     padding-top: 40px;
-
 }
-#back-to-top-btn{
+
+#back-to-top-btn {
     display: none;
 }
 
@@ -212,12 +211,10 @@ p{
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     50% {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
     }
-
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -229,17 +226,16 @@ p{
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     50% {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
     }
-
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
 }
+
 
 /* --- contactformular --- */
 
@@ -256,7 +252,6 @@ form {
     margin-left: auto;
     margin-right: auto;
     border: solid 1px #2b435b;
-    
 }
 
 label {
@@ -267,7 +262,7 @@ label {
 }
 
 textarea {
- width: 80%;   
+    width: 80%;
 }
 
 input {
@@ -275,23 +270,34 @@ input {
 }
 
 
+/*---------- Om nuuii side--------*/
+
+.header-omnuuii {
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.icon-mobil-omnuuii {
+    height: 150px;
+    margin-top: 30px;
+}
+
+
 /*------------------------- Media Query -----------------*/
-/* ---- Media query 750 px ---- */ 
+
+
+/* ---- Media query 750 px ---- */
 
 @media screen and (min-width: 750px) {
-
     #nav-links-mobile {
         display: none;
     }
-
     #burger {
         display: none;
     }
-
     #toggle-desk-nav {
         display: block;
     }
-    
     footer {
         display: flex;
         flex-direction: row;
@@ -299,26 +305,21 @@ input {
         justify-content: space-around;
         padding-bottom: 4vh;
     }
-    
     #footer-logo {
         margin-left: 3vw;
     }
-    
     #footer-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
-    
     .item-container {
         width: 30vw;
         margin-left: 3vw;
         margin-right: 3vw;
     }
-    
     .footer-line {
         width: 30vw;
     }
-
 }
