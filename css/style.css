@@ -369,8 +369,8 @@ nav {
 #some-section-kontakt {
     margin: 2% auto;
     width: 100%;
-    background-color:#f8ffff;
-    border:1px solid #40638d;
+    background-color: #f8ffff;
+    border: 1px solid #40638d;
     padding: 2%;
     display: flex;
     flex-direction: row;
@@ -381,6 +381,7 @@ nav {
     text-align: center;
     margin: 4% auto;
 }
+
 #some-section-kontakt img {
     width: 100%;
 }
@@ -390,9 +391,11 @@ nav {
     margin: 4% auto;
     text-align: center;
 }
+
 .kontakt-icon a {
     text-decoration: none;
 }
+
 .kontakt-icon a:hover {
     text-decoration: underline;
 }
@@ -402,33 +405,70 @@ nav {
     margin: 2% auto;
     text-align: center;
 }
+
 #kontaktmail a {
     text-decoration: none;
 }
+
 #kontaktmail a:hover {
     text-decoration: underline;
 }
-#somelinksfooter {
-    width: 95%;
+
+/*------ Footer -----*/
+
+#somelinks-footer {
+    width: 100%;
     padding: 2%;
-    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-#somelinksfooter img {
-    width: 50%;
-    margin: 5% 0 0 0;
-    padding: 0 5% 0 5%;
+
+#somelinks-footer img {
+    width: 60%;
+    margin: 5% 0;
+    padding: 0 5%;
 }
 
-#somelinksfooter a {
+#somelinks-footer a {
     color: #f8ffff;
     font-family: 'Montserrat', sans-serif;
 }
 
-#somelinksfooter a,
-#somelinkskontakt a {
+#somelinks-footer a {
     text-decoration: none;
 }
+
+.footer-kontakt-icon {
+    width: 33%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.footer-kontakt-icon a {
+    text-decoration: none;
+}
+
+.footer-kontakt-icon:hover {
+    text-decoration: underline;
+}
+
+.maps {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 
 /* ---------- Vejledning index ------*/
 
@@ -767,8 +807,8 @@ input {
     color: #f8ffff;
     transition: 0.3s ease-out;
     padding: 15px;
-    
-    
+
+
     font-size: 0.8em;
     font-weight: 600;
     text-transform: uppercase;
@@ -811,6 +851,11 @@ input {
         color: #f8ffff;
         line-height: 130%;
         text-align: center;
+    }
+    
+    /*--Footer*/
+    #somelinks-footer {
+        width: 75%;
     }
 
 }
@@ -952,7 +997,7 @@ input {
     }
 
     .video-guide-index video {
-      margin-top: 5%;
+        margin-top: 5%;
     }
 
     /*----- vjledning underside -----*/
@@ -990,7 +1035,7 @@ input {
         margin-top: 10%;
     }
 
-#kontakt-btn {
+    #kontakt-btn {
         padding: 1.5%;
         font-size: 1.3em;
         height: 7vh;
@@ -1066,7 +1111,7 @@ input {
 
     .video-guide-index {
         margin: 2% auto;
-        
+
     }
 
     .video-guide-index video {
@@ -1074,9 +1119,10 @@ input {
         margin: 2% auto;
         display: block;
     }
+
     #kontakt-btn {
         padding: 1.2%;
-    
+
     }
 
 }
