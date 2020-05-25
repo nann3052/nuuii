@@ -414,6 +414,23 @@ nav {
     text-decoration: underline;
 }
 
+.maps {
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
 /*------ Footer -----*/
 
 #somelinks-footer {
@@ -429,11 +446,6 @@ nav {
     width: 60%;
     margin: 5% 0;
     padding: 0 5%;
-}
-
-#somelinks-footer a {
-    color: #f8ffff;
-    font-family: 'Montserrat', sans-serif;
 }
 
 #somelinks-footer a {
@@ -454,21 +466,16 @@ nav {
     text-decoration: underline;
 }
 
-.maps {
-    position: relative;
-    padding-bottom: 100%;
-    overflow: hidden;
-    width: 100%;
-}
+.footer-kickstarter {
+    display: none;
+    text-align: right;
+    padding: 4%;
 
-.maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
 }
-
+.footer-kickstarter a {
+     color: #f8ffff;
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* ---------- Vejledning index ------*/
 
@@ -854,8 +861,19 @@ input {
     }
     
     /*--Footer*/
-    #somelinks-footer {
-        width: 75%;
+    .footer-kontakt-icon {
+        width: 22%;
+        margin: 0;
+        text-align: left;
+    }
+    .footer-kickstarter {
+        display: block;
+         width: 30%;
+    }
+    
+    .footer-kickstarter a {
+        
+
     }
 
 }
@@ -883,35 +901,11 @@ input {
 
     /*---- Footer-----*/
 
-    footer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        padding-bottom: 4vh;
-    }
+    
+    
 
-    #footer-logo {
-        margin-left: 3vw;
-    }
-
-    #footer-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
-
-    .item-container {
-        width: 30vw;
-        margin-left: 3vw;
-        margin-right: 3vw;
-    }
-
-    .footer-line {
-        width: 30vw;
-    }
-
+    
+/* hvad hvordan hvorfor underside */
     #hhh {
         display: flex;
         flex-direction: row;
