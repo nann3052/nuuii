@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Nuuii</title>
-    <link href="" rel="icon">
-    <link rel="reset" href="css/reset.css">
+    <link href="images/leaficon.png" rel="icon">
+    <link rel="stylesheet" href="css/reset.css">
     <link href="css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <meta name="keywords" content="Rengøring, bæredygtigt, miljø, miljøvenligt, Danmark " />
     <meta name="description" content="Nuuii sælger bæredygtige rengøringsmidler til miljøbevidste danskere" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -53,52 +54,73 @@
             Om Nuuii
         </header>
 
-        <article>
-            <img src="images/icons/vaerdier.png" class="icon-mobil-omnuuii" alt="værdier">
-            <section>
-                <h2>Værdier</h2>
-                <p>Alle vores produkter udspringer af tanken om vand transporteres i vandrørene - ikke på vejene. Vores produkter er pakket i papir, men vi sparer også en masse CO2 fordi vi ikke skal køre en masse vand rundt på landevejene.
-                </p>
-            </section>
-        </article>
 
-        <article>
-            <img src="images/icons/historie.png" class="icon-mobil-omnuuii" alt="Historie">
-            <section>
-                <h2>Historie</h2>
-                <p>Nuuii er en lille virksomhed drevet af en håndfuld entuisaster inde for miljø Virksomheden startede fordi min søster og jeg kunne se et stort potenitale inde for bæredygtige rengøringsmidler - og en potientel stor efterspørgsel
-                </p>
-            </section>
-        </article>
+        <img src="images/icons/vaerdier.png" class="icon-mobil-omnuuii" alt="værdier">
+        <h2 class="h2-omnuuii">Værdier</h2>
+        <button class="accordion">Værdier</button>
+        <div class="panel">
+            <p>Alle vores produkter udspringer af tanken om vand transporteres i vandrørene - ikke på vejene. Vores produkter er pakket i papir, men vi sparer også en masse CO2 fordi vi ikke skal køre en masse vand rundt på landevejene.
+            </p>
+        </div>
 
-        <article>
-            <img src="images/icons/miljo.png" class="icon-mobil-omnuuii" alt="Miljøet">
-            <section>
-                <h2>Miljøet</h2>
-                <p>Vand tilsættes hjemme hos dig. Det betyder at vi sparer transporten af en helt masse vand. De aktive ingredienser i sæbe og rengøringsmidler udgør ofte kun 10-20%, så spares der rigtigt meget CO2 ved kun at transportere de aktive ingredienser.
-                </p>
-            </section>
-        </article>
 
-        <article>
-            <img src="images/icons/emballage.png" class="icon-mobil-omnuuii" alt="Emballage">
-            <section>
-                <h2>Emballage</h2>
-                <p>Vi arbejder kun med papir-emballage. Det kan vi, fordi vores produkter ikke indeholder vand Ligesom vores produkter, skal vores emballage produceres tæt på os og leve op til strenge krav – for vi tror på gennemført miljøvenlighed. Vores
-                    emballage er derfor Cradle-to-Cradle-certificeret og miljøneutral.
-                </p>
-            </section>
-        </article>
+        <img src="images/icons/historie.png" class="icon-mobil-omnuuii" alt="Historie">
+        <h2>Historie</h2>
+        <button class="accordion">Læs mere</button>
+        <div class="panel">
+            <p>Nuuii er en lille virksomhed drevet af en håndfuld entuisaster inde for miljø Virksomheden startede fordi min søster og jeg kunne se et stort potenitale inde for bæredygtige rengøringsmidler - og en potientel stor efterspørgsel
+            </p>
+        </div>
 
-        <article>
-            <img src="images/icons/danskproduceret.png" class="icon-mobil-omnuuii" alt="Dansk">
-            <section>
-                <h2>Dansk</h2>
-                <p>Nuuiis produkter er designet, udviklet og produceret i Danmark. I Danmark er der stor viden om at producere grønne, bæredygtige produkter. Vi vil gerne medvirke til at skabe danske arbejdspladser og et bedre miljø.
-                </p>
-            </section>
-        </article>
-        <script src=" js/script.js "></script>
+
+        <img src="images/icons/miljo.png" class="icon-mobil-omnuuii" alt="Miljøet">
+        <h2>Miljøet</h2>
+        <button class="accordion">Læs mere</button>
+        <div class="panel">
+            <p>Vand tilsættes hjemme hos dig. Det betyder at vi sparer transporten af en helt masse vand. De aktive ingredienser i sæbe og rengøringsmidler udgør ofte kun 10-20%, så spares der rigtigt meget CO2 ved kun at transportere de aktive ingredienser.
+            </p>
+        </div>
+
+
+        <img src="images/icons/emballage.png" class="icon-mobil-omnuuii" alt="Emballage">
+        <h2>Emballage</h2>
+        <button class="accordion">Læs mere</button>
+        <div class="panel">
+            <p>Vi arbejder kun med papir-emballage. Det kan vi, fordi vores produkter ikke indeholder vand Ligesom vores produkter, skal vores emballage produceres tæt på os og leve op til strenge krav – for vi tror på gennemført miljøvenlighed. Vores emballage
+                er derfor Cradle-to-Cradle-certificeret og miljøneutral.
+            </p>
+        </div>
+
+
+        <img src="images/icons/danskproduceret.png" class="icon-mobil-omnuuii" alt="Dansk">
+        <h2>Dansk</h2>
+        <button class="accordion">Læs mere</button>
+        <div class="panel">
+            <p>Nuuiis produkter er designet, udviklet og produceret i Danmark. I Danmark er der stor viden om at producere grønne, bæredygtige produkter. Vi vil gerne medvirke til at skabe danske arbejdspladser og et bedre miljø.
+            </p>
+        </div>
+
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+
+
+        <script src="js/script.js"></script>
+
 
 </body>
 
