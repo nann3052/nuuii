@@ -120,6 +120,7 @@ nav {
     overflow: hidden;
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
+    z-index: 2;
 
 
 }
@@ -353,42 +354,60 @@ nav {
 }
 
 
-/* SoMe links */
+/*------- SoMe links / Kontakt side ------ */
 #somelinksforside {
     margin: 15% 0 0 0;
     text-align: center;
 }
 
-#somelinksforside img,
-#somelinkskontakt img {
+#somelinksforside img {
     width: 35%;
     margin: 5% 0 0 0;
     padding: 0 5% 0 5%;
 }
 
-#somelinkskontakt img {
-    width: 50%;
-}
-
-#somelinkskontakt {
-    width: 95%;
+#some-section-kontakt {
+    margin: 2% auto;
+    width: 100%;
+    background-color:#f8ffff;
+    border:1px solid #40638d;
     padding: 2%;
-    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.kontaktlinkd,
-.kontaktinsta,
-.kontaktfb,
-.kontaktmail {
-    padding-top: 4%;
-    width: 40%;
-    display: inline-block;
+.kontakt-p {
+    text-align: center;
+    margin: 4% auto;
+}
+#some-section-kontakt img {
+    width: 100%;
 }
 
-.kontaktmail {
-    display: block;
+.kontakt-icon {
+    width: 30%;
+    margin: 4% auto;
+    text-align: center;
+}
+.kontakt-icon a {
+    text-decoration: none;
+}
+.kontakt-icon a:hover {
+    text-decoration: underline;
 }
 
+#kontaktmail {
+    width: 30%;
+    margin: 2% auto;
+    text-align: center;
+}
+#kontaktmail a {
+    text-decoration: none;
+}
+#kontaktmail a:hover {
+    text-decoration: underline;
+}
 #somelinksfooter {
     width: 95%;
     padding: 2%;
