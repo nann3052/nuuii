@@ -10,49 +10,83 @@
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <meta name="keywords" content="Rengøring, bæredygtigt, miljø, miljøvenligt, Danmark " />
     <meta name="description" content="Nuuiis produkter som er bæredygtige rengøringsmidler til køkken, bad og universal" />
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-
+    <!--Her starter menuen -->
     <nav>
         <div id="logo">
             <a href="index.html"><img src="images/leaflogo.png" alt=" nuuii logo"></a>
         </div>
-        
+
         <div id="burger" onclick="showMobileNav()">
             <div class="burger-line" id="line-1"></div>
             <div class="burger-line" id="line-2"></div>
             <div class="burger-line" id="line-3"></div>
         </div>
-        
+
         <div id="toggle-desk-nav">
             <ul id="nav-links-desktop">
-                
+
                 <li><a href="produkter.html">Produkter</a></li>
                 <li><a href="vejledning.html">Vejledning</a></li>
                 <li><a href="omnuuii.html">Om Nuuii</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </div>
-        
+
         <ul id="nav-links-mobile">
             <li id="mobile-logo" class="show-links"><a href="index.html"><img src="images/leaflogo.png" alt="logo"></a></li>
             <li class="show-links"><a href="produkter.html">Produkter</a></li>
-             <li><a href="vejledning.html">Vejledning</a></li>
+            <li><a href="vejledning.html">Vejledning</a></li>
             <li class="show-links"><a href="omnuuii.html">Om Nuuii</a></li>
             <li class="show-links"><a href="kontakt.html">Kontakt</a></li>
-            
+
         </ul>
     </nav>
-    
+    <!--Her slutter menuen -->
+
     <main>
-       
-        
+        <h1 class="headings-top">PRODUKTER</h1>
+
+        <div id="flexcontainer">
+
+            <div id="billedeogtekst1">
+                <img id="produkt1" src="images/produktbillede1.JPG" alt="rengøringstabs, baderum">
+                <h2 id="underoverskrift">Baderum</h2>
+                <p id="produktbeskrivelse">Vores baderumstabs består blandt andet af vores egenproducerede castillesæbe natron og citronsyre. Disse ingredienser gør at din baderumsspray kan vaske rent og opløse klak.</p>
+                <p id="pris">30 kr,-</p>
+            </div>
+
+            <div id="billedeogtekst2">
+                <img id="produkt2" src="images/produktbillede2.JPG" alt="rengøringstabs, køkken">
+                <h2 id="underoverskrift">Køkken</h2>
+                <p id="produktbeskrivelse">Vores køkkentabs består blandt andet af vores egenproducerede castillesæbe, citronsyre og natron. Disse ingredienser gør vores køkkenspray kan vaske rent og opløse fedt fra madsrester.</p>
+                <p id="pris">40 kr.-</p>
+            </div>
+
+            <div id="billedeogtekst3">
+                <img id="produkt3" src="images/produktbillede3.JPG" alt="rengøringstabs, universal">
+                <h2 id="underoverskrift">Universal</h2>
+                <p id="produktbeskrivelse">Vores universalrens består af vores egenproducerede castillesæbe, citronsyre og natron. Disse ingredienser gør at din universalrens kan vaske rent og opløse snavs.</p>
+                <p id="pris">40 kr.-</p>
+            </div>
+        </div>
+
+        <button id="getIngr" class="ingr-btn">Ingrediensliste</button>
+
+        <div id="output"></div>
+
+       <div id="slutproduktside">
+        <h2>Køb produkter her</h2>
+        <h3><a href="produkter.html">Webshop</a></h3>
+        <h3><a href="https://www.matas.dk/">Matas</a></h3>
+        </div>
+
     </main>
-    
-<script src="js/script.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

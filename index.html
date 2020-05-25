@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <meta name="keywords" content="Rengøring, bæredygtigt, miljø, miljøvenligt, Danmark " />
     <meta name="description" content="Nuuii sælger bæredygtige rengøringsmidler til miljøbevidste danskere" />
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,42 +20,242 @@
         <div id="logo">
             <a href="index.html"><img src="images/leaflogo.png" alt=" nuuii logo"></a>
         </div>
-        
+
         <div id="burger" onclick="showMobileNav()">
             <div class="burger-line" id="line-1"></div>
             <div class="burger-line" id="line-2"></div>
             <div class="burger-line" id="line-3"></div>
         </div>
-        
+
         <div id="toggle-desk-nav">
             <ul id="nav-links-desktop">
-                
+
                 <li><a href="produkter.html">Produkter</a></li>
                 <li><a href="vejledning.html">Vejledning</a></li>
                 <li><a href="omnuuii.html">Om Nuuii</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </div>
-        
+
         <ul id="nav-links-mobile">
             <li id="mobile-logo" class="show-links"><a href="index.html"><img src="images/leaflogo.png" alt="logo"></a></li>
             <li class="show-links"><a href="produkter.html">Produkter</a></li>
-             <li><a href="vejledning.html">Vejledning</a></li>
+            <li><a href="vejledning.html">Vejledning</a></li>
             <li class="show-links"><a href="omnuuii.html">Om Nuuii</a></li>
             <li class="show-links"><a href="kontakt.html">Kontakt</a></li>
-            
+
         </ul>
     </nav>
-    
+
+    <!-- Forside billedet med tekst -->
+
     <main>
-        <div class="intro-container">
+        <section id="intro-container">
             <img id="hero-logo" src="images/leaflogo.png" alt="Nuuii Logo" id="nuuii">
             <h1>Bæredygtige rengøringsmidler</h1>
             <h2>Vil du spare Co2 med din rengøring?</h2>
-        </div>
+            <div id="button-intro"> <a href="vejledning.html" id="button-more">Se hvordan</a>
+            </div>
+        </section>
+
+
+        <!-- Hvad hvordan hvorfor section -->
+
+        <section id="hhh">
+            <div class="hhharea">
+                <div class="hhhcircle">
+                    <p>Hvad?</p>
+                </div>
+                <div id="hhhtekst">Nuuii producere bæredygtige rengøringstabletter der kan bruges fra køkken til bad</div>
+                <div class="button-hhh"> <a href="">Læs mere</a>
+                </div>
+            </div>
+
+            <div class="hhharea">
+                <div class="hhhcircle">
+                    <p>Hvordan?</p>
+                </div>
+                <div id="hhhtekst">Vores tabs skal blottes tilsættes vand for at skabe et effektivt, bæredygtigt rengøringsmiddel</div>
+                <div class="button-hhh"> <a href="">Læs mere</a>
+                </div>
+            </div>
+
+            <div class="hhharea">
+                <div class="hhhcircle">
+                    <p>Hvorfor?</p>
+                </div>
+                <div id="hhhtekst">Sammen kan vi spare Co2 ved mindre unødvendig transport - vand skal transporteres i rørene, ikke på vejen!</div>
+                <div class="button-hhh"> <a href="">Læs mere</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produkter på forside --->
+        <h2 class="headers-index" id="product-heading">Produkter</h2>
+           <section id="indexprodukter">
+            
+
+            <div class="product-container" id="bad">
+                <div class="overlay-heading">Baderum</div>
+                <div class="overlay-click">Tryk for mere info</div>
+                <div class="overlay-info">Vores baderumstabs består blandt andet af vores egenproducerede Castillesæbe, natron og citronsyre. Disse ingredienser gør at din baderumsspray kan vaske rent og opløse kalk.
+                    <div class="overlay-info-price">30 kr.</div>
+                </div>
+                <img class="produktimg" src="images/badprodukt.jpg" alt="produkt baderum">
+            </div>
+
+            <div class="product-container" id="kokken">
+                <div class="overlay-heading">Køkken</div>
+                <div class="overlay-click">Tryk for mere info</div>
+                <div class="overlay-info">Vores køkkentabs består blandt andet af vores egenproducerede Castillesæbe, citronsyre og natron. Disse ingredienser gør at vores køkkenspray kan vaske rent og opløse fedt
+                    <div class="overlay-info-price">40 kr.</div>
+                </div>
+                <img class="produktimg" src="images/kokkenprodukt.jpg" alt="produkt køkken">
+            </div>
+
+            <div class="product-container" id="universal">
+                <div class="overlay-heading">Universal</div>
+                <div class="overlay-click">Tryk for mere info</div>
+                <div class="overlay-info">Vores universalrens består af vores egenproducerede Castillesæbe, citronsyre og natron. Disse ingredienser gør at din universalsrens kan vaske rent og opløse snavs.
+                    <div class="overlay-info-price">40 kr.</div>
+                </div>
+                <img class="produktimg" src="images/universalprodukt.jpg" alt="produkt universal">
+            </div>
+
+        </section>
+
+        <!-- Om Nuuii forside----->
         
+          <section id="indexomnuuii">
+           <h2 class="headers-index" id="omnuuii-heading">Om Nuuii</h2>
+           
+            <div id="omnuuiiflexcontainer">
+
+                <div class="nuuiiinfo">
+                    <img src="images/icons/vaerdier.png" alt="icon værdier">
+                    <a href="omnuuii.html#vaerdier">Værdier</a>
+                </div>
+
+                <div class="nuuiiinfo">
+                    <img src="images/icons/historie.png" alt="icon historie">
+                    <a href="omnuuii.html#historie">Historie</a>
+                </div>
+
+                <div class="nuuiiinfo">
+                    <img src="images/icons/miljo.png" alt="icon miljø">
+                    <a href="omnuuii.html#miljo">Miljø</a>
+                </div>
+
+                <div class="nuuiiinfo">
+                    <img src="images/icons/emballage.png" alt="icon emballage">
+                    <a href="omnuuii.html#emballage">Emballage</a>
+                </div>
+
+                <div class="nuuiiinfo">
+                    <img src="images/icons/danskproduceret.png" alt="icon dansk">
+                    <a href="omnuuii.html#dansk">Dansk</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SoMe Links----->
+
+        <div id="somelinksforside">
+            <p>Følg med i hverdagen hos Nuuii</p>
+            <a href="https://www.facebook.com/NUUIIDK"><img src="images/fblogo.png" alt=""></a>
+            <a href="https://www.instagram.com/nuuii/"><img src="images/instalogo.png" alt=""></a>
+            <div>_____________________________________</div>
+        </div>
+
+        <section id="forsidevejledning">
+
+            <h2 class="headers-index" id="vejledning-header">Vejledning</h2>
+            <p class="text-video">Se videoen for brugsanvisning af NUUIIs produkter</p>
+            <div class="video-guide-index">
+                <video controls poster="images/thumbnail.jpg">
+                    <source src="video/howtonuuii.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </section>
+
+
+        <section class="indexfaq">
+            <h2 class="headers-index" id="faq-header">FAQ</h2>
+          
+            
+            <button class="faq-question">Koldt eller varmt vand?</button>
+            
+            <div class="faqanswer">
+                <p>Der skal bruges koldt vand til vores tabs.
+                    Dette er for at undgå bakterierne i varmt vand.
+
+                    Ved vores Universlrens kan du sagtens bruge varmt
+                    vand. Her smider du nemlig vandet ud, når du er færdig med at gøre rent. </p>
+                    
+                     
+            </div>
+            
+
+            <button class="faq-question">Hvornår er mit produkt klar til brug?</button>
+            <div class="faqanswer">
+                <p>Tabs til køkken og bad samt Universalrens opløses med det samme.
+                    Dit rengøringsprodukt er derfor klar til brug med det samme, når du
+                    har blandet det med vand. </p>
+            </div>
+
+            <button class="faq-question">Skal jeg ryste flasken?</button>
+            <div class="faqanswer">
+                <p>Det er ikke nødvendigt.</p>
+            </div>
+
+            <button class="faq-question">Hvor meget vand skal jeg bruge?</button>
+            <div class="faqanswer">
+                <p>Blandingsforholdet er angivet på de forskellige produkter, så følg blot
+                    anvisningen på din emballage. </p>
+            </div>
+
+            <button class="faq-question">Hvor meget universalrens skal jeg bruge?</button>
+            <div class="faqanswer">
+                <p>Vi anbefaler 0.5 deciliter pr. liter </p>
+            </div>
+
+
+            <button class="faq-question">Hvor mange tabs skal jeg bruge?</button>
+            <div class="faqanswer">
+                <p>Der skal 250 ml. vand til 1 tabs. Du bestemmer selv hvor meget du vil blande af gangen,
+                    Vi anbefaler dog at lave mindre portioner af gangen.</p>
+            </div>
+
+            <button class="faq-question">Hvilken flaske skal jeg bruge?</button>
+            <div class="faqanswer">
+                <p>Med Nuuiis produkter sparer du emballage, da du benytter en sprayflaske, du allerede har.
+                    Du kan bruge en hvilken som helst sprayflaske du har derhjemme. </p>
+            </div>
+
+            <button class="faq-question">Hvor længe holder mit produkt?</button>
+            <div class="faqanswer">
+                <p>Tabs og Universalrens holder for evigt, så længe det ikke er blevet blandet med vand.
+                    Når produktet er blevet blandet med vand, anbefaler vi at bruge produktet indenfor 3 måneder. </p>
+            </div>
+
+        </section>
+
+
+            
+            <div id="scroll-container">
+                <div id="back-to-top-btn" style="display: none;"><img src="images/icons/top-arrow.svg" alt="arrow-up" class="pulsate-bck"></div>
+            </div>
+            
     </main>
-<script src="js/script.js"></script>
+    
+    <footer>
+        
+        
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
