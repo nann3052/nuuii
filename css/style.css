@@ -561,7 +561,7 @@ p {}
 /* --- Up-arrow --- */
 
 #scroll-container {
-    max-width: 10%;
+    width: 10%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -583,6 +583,7 @@ p {}
     z-index: 1;
     bottom: 10px;
     width: 12%;
+    max-width: 80px;
 }
 
 @-webkit-keyframes pulsate-bck {
