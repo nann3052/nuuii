@@ -41,25 +41,8 @@ for (i = 0; i < faq.length; i++) {
 }
 
 
-
-
-// ------ ingredienser API Fetch -----
-const getIngrBtnElement = document.getElementById("getIngr");
-
-getIngrBtnElement.addEventListener("click", getIngr);
-
-function getIngr() {
-    fetch('ingredienser.txt')
-        .then((res) => res.text())
-        .then((data) => {
-            document.getElementById("output").innerHTML = data;
-        })
-}
-
-
-
 // ------ Accordion - om nuuii -----
-var acc = document.getElementsByClassName("accordion");
+const acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -77,3 +60,19 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+// ------ ingredienser API Fetch -----
+const getIngrBtnElement = document.getElementById("getIngr");
+
+getIngrBtnElement.addEventListener("click", getIngr);
+
+function getIngr() {
+    fetch('ingredienser.txt')
+        .then((res) => res.text())
+        .then((data) => {
+            document.getElementById("output").innerHTML = data;
+        })
+}
+
+
+
