@@ -734,7 +734,6 @@ input {
     margin-top: 5%;
 }
 
-s
 /*---- produktside starter -----*/
 
 .headings-top {
@@ -880,7 +879,31 @@ s
         display: block;
         width: 30%;
     }
-    .footer-kickstarter a {}
+     /*---Kontakt side---*/
+
+    #some-section-kontakt {
+        margin: 2% auto;
+        width: 80%;
+        padding: 2%;
+        box-shadow:  5px 4px 4px -3px rgba(64,99,141,1);
+        
+    }
+
+    .kontakt-p {
+        text-align: center;
+        margin: 4% auto;
+    }
+
+    #some-section-kontakt img {
+        width: 100%;
+    }
+
+    .kontakt-icon, #kontaktmail {
+        width: 30%;
+    }
+    
+    .container {
+        width: 430px;
     /*-----om nuuii----*/
     .icon-mobil-omnuuii {
         width: 40vh;
@@ -1034,6 +1057,46 @@ s
         width: 30%;
         padding-right: 0;
     }
+    
+      #flex-maps-formular {
+        display: flex;
+        flex: wrap;
+        flex-direction: row;
+        margin:5% auto;
+        
+    }
+    /*--- Kontakt ---*/
+    #flex-maps-formular {
+        display: flex;
+        flex: wrap;
+        flex-direction: row;
+        margin:5% auto;
+        
+    }
+    .container {
+        width: 45%;
+        margin: 0 2% 0 4%;
+        padding-top:5%; 
+        
+    }
+    
+    .maps {
+    position: relative;
+    padding-bottom: 50%;
+    overflow: hidden;
+    margin: 0 4% 0 2%;
+    width: 45%;
+}
+
+.maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+    
+    
     /*-----omnuuiiside----*/
     .icon-mobil-omnuuii {
         width: 45vh;
@@ -1138,6 +1201,37 @@ s
         padding: 3% 0 0 0;
         margin: 0;
     }
+     #flex-maps-formular {
+        margin: 2% auto 2% auto;
+        padding: 0 10%;
+    }
+    
+       /*---kontakt----*/
+    #flex-maps-formular {
+        margin: 2% auto 2% auto;
+        padding: 0 10%;
+    }
+    
+    .container {
+        width: 30%;
+        height: 60vh;
+        margin: 2% 2% 0 auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        
+    }
+    .maps {
+        width: 40%;
+        margin: 2% auto 0 2%;
+    }
+    .maps {
+    padding-bottom: 30%;
+    }
+
+    .somelinks-footer {
+        padding: 1% 0 2% 15%;
+        height: 15vh;
+    
     /*-----omnuuiiside----*/
     .icon-mobil-omnuuii {
         width: 55vh;
