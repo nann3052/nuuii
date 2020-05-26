@@ -429,7 +429,7 @@ nav {
 
 /*------ Footer -----*/
 
-#somelinks-footer {
+.somelinks-footer {
     width: 100%;
     padding: 2%;
     display: flex;
@@ -437,13 +437,13 @@ nav {
     flex-direction: row;
 }
 
-#somelinks-footer img {
+.somelinks-footer img {
     width: 60%;
     margin: 5% 0;
     padding: 0 5%;
 }
 
-#somelinks-footer a {
+.somelinks-footer a {
     text-decoration: none;
 }
 
@@ -1019,7 +1019,7 @@ s
         width: 22vh;
     }
     /*--Footer--*/
-    #somelinks-footer {
+    .somelinks-footer {
         margin: 0 auto;
         padding-left: 12%;
     }
@@ -1074,7 +1074,7 @@ s
         width: 20%;
     }
     /*--Footer--*/
-    #somelinks-footer {
+    .somelinks-footer {
         padding-left: 19%;
     }
     .footer-kontakt-icon {
@@ -1125,7 +1125,7 @@ s
     .faq-question {
         padding: 2%;
     }
-    #somelinks-footer {
+    .somelinks-footer {
         padding-left: 25%;
         height: 19vh;
     }
