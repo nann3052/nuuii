@@ -562,10 +562,10 @@ p {}
 
 #scroll-container {
     width: 10%;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
     padding-top: 40px;
+    float: right;
+    margin-right: 30px;
 
 }
 
@@ -581,7 +581,7 @@ p {}
 .pulsate-bck {
     position: fixed;
     z-index: 1;
-    bottom: 10px;
+    bottom: 120px;
     width: 12%;
     max-width: 80px;
 }

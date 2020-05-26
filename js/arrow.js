@@ -4,7 +4,7 @@ const backToTopBtn = document.querySelector("#back-to-top-btn");
 window.addEventListener("scroll", scrollUpFunction);
 
 function scrollUpFunction() {
-    if (window.pageYOffset > 500) {
+    if (window.pageYOffset > 350) {
         backToTopBtn.style.display = "block";
     } else {
         backToTopBtn.style.display = "none";
