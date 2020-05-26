@@ -6,14 +6,10 @@
     color: #40638d;
 }
 
-
-
 #wrapper {
     background-color: white;
     width: 100%;
 }
-
-
 
 header {
     width: 100%;
@@ -31,6 +27,7 @@ nav {
     top: 0;
 }
 
+
 /* --- Logo Nav --- */
 
 #logo {
@@ -41,6 +38,7 @@ nav {
 #logo img {
     height: 100%;
 }
+
 
 /* --- Burger Nav --- */
 
@@ -70,6 +68,7 @@ nav {
     transform: rotate(45deg) translate(-6px, -7px);
 }
 
+
 /* --- Nav-desktop --- */
 
 #toggle-desk-nav {
@@ -89,8 +88,6 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 #nav-links-desktop a {
     text-decoration: none;
     color: #40638D;
@@ -101,6 +98,7 @@ nav {
 #nav-links-desktop a:hover {
     color: #7db7c7;
 }
+
 
 /* --- Nav-mobile --- */
 
@@ -121,13 +119,10 @@ nav {
     transition: 0.5s;
     font-family: 'Montserrat', sans-serif;
     z-index: 2;
-
-
 }
 
 #nav-links-mobile li {
     list-style: none;
-
 }
 
 #mobile-logo img {
@@ -145,7 +140,9 @@ nav {
     color: #40638D;
 }
 
+
 /*------- HERO image index -----*/
+
 #hero-logo {
     width: 50vw;
     margin-top: 10vh;
@@ -175,7 +172,6 @@ nav {
     margin-top: 17vh;
     font-weight: bolder;
     text-transform: uppercase;
-
 }
 
 #button-intro {
@@ -185,9 +181,6 @@ nav {
     border-radius: 50px;
     margin: 5vh auto 5vh auto;
     padding: 2%;
-
-
-
 }
 
 #button-more {
@@ -200,6 +193,7 @@ nav {
 #button-intro:hover {
     text-decoration: underline;
 }
+
 
 /*----- Hvad hvordan hvorfor section ----*/
 
@@ -239,7 +233,6 @@ nav {
 }
 
 .button-hhh {
-
     display: block;
     background-color: #40638d;
     color: #fff;
@@ -265,13 +258,14 @@ nav {
     text-decoration: underline;
 }
 
+
 /* ------ Produkt afsnit forside ----*/
+
 .product-container {
     width: 100%;
     position: relative;
     margin: 5% 0 0 0;
     text-align: center;
-
 }
 
 .overlay-heading {
@@ -315,14 +309,15 @@ nav {
     color: #f8ffff;
     line-height: 130%;
     text-align: center;
-
 }
 
 .product-container:active .overlay-info {
     opacity: 100%;
 }
 
+
 /*----- Om Nuuii forside -----*/
+
 .headers-index {
     text-transform: uppercase;
     font-size: 2.5em;
@@ -333,31 +328,30 @@ nav {
 #indexomnuuii {
     margin: 20% 0 0 0;
     text-align: center;
-    transition: 0.4s;
-  
 }
 
 .nuuiiinfo {
     width: 100%;
-    margin: 10% 0 5% 0;  
-
+    margin: 10% 0 5% 0;
+    transition: 0.4s ease-out;
 }
 
 .nuuiiinfo img {
     width: 50%;
     display: block;
     margin: 5% auto 0 auto;
+    transition: 0.4s ease-out;
 }
 
 .nuuiiinfo a {
     font-size: 2em;
     text-decoration: none;
-
+    transition: 0.4s ease-out;
 }
 
 
-
 /*------- SoMe links / Kontakt side ------ */
+
 #somelinksforside {
     margin: 15% 0 0 0;
     text-align: center;
@@ -405,7 +399,7 @@ nav {
 
 #kontaktmail {
     width: 30%;
-    margin: 4% auto;
+    margin: 2% auto;
     text-align: center;
 }
 
@@ -421,8 +415,7 @@ nav {
     position: relative;
     padding-bottom: 100%;
     overflow: hidden;
-    width: 90%;
-    margin: 4%;
+    width: 100%;
 }
 
 .maps iframe {
@@ -434,10 +427,9 @@ nav {
 }
 
 
-
 /*------ Footer -----*/
 
-.somelinks-footer {
+#somelinks-footer {
     width: 100%;
     padding: 2%;
     display: flex;
@@ -445,14 +437,13 @@ nav {
     flex-direction: row;
 }
 
-
-.somelinks-footer img {
+#somelinks-footer img {
     width: 60%;
     margin: 5% 0;
     padding: 0 5%;
 }
 
-.somelinks-footer a {
+#somelinks-footer a {
     text-decoration: none;
 }
 
@@ -474,13 +465,13 @@ nav {
     display: none;
     text-align: right;
     padding: 4%;
-
 }
 
 .footer-kickstarter a {
     color: #f8ffff;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* ---------- Vejledning index ------*/
 
@@ -502,6 +493,7 @@ nav {
     width: 100%;
     margin-top: 15%;
 }
+
 
 /*------- FAQ forside ------*/
 
@@ -556,11 +548,13 @@ nav {
 
 
 /* --- Footer --- */
+
 footer {
     background-color: #40638D;
 }
 
 p {}
+
 
 /* --- Up-arrow --- */
 
@@ -570,7 +564,6 @@ p {}
     padding-top: 40px;
     float: right;
     margin-right: 30px;
-
 }
 
 #back-to-top-btn {
@@ -595,12 +588,10 @@ p {}
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     50% {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
     }
-
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -612,20 +603,18 @@ p {}
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     50% {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
     }
-
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
 }
 
-/* --- contactformular --- */
 
+/* --- contactformular --- */
 
 #contact {
     text-align: center;
@@ -649,7 +638,7 @@ form {
     margin-right: auto;
     margin-top: 8%;
     border: solid 1px #2b435b;
-    box-shadow:  5px 4px 4px -3px rgba(64,99,141,1);
+    box-shadow: 2px 5px 5px rgb(146, 146, 146);
 }
 
 label {
@@ -669,7 +658,6 @@ input {
     width: 95%;
     max-width: 300px;
 }
-
 
 #fname,
 #email,
@@ -698,7 +686,6 @@ input {
     border-radius: 50px;
 }
 
-
 .sub-btn {
     display: inline-block;
     background-color: #40638d;
@@ -715,13 +702,39 @@ input {
     border-radius: 10px;
 }
 
+
 /*-----om nuuii----*/
 
 .icon-mobil-omnuuii {
-    width: 100%;
+    margin-top: 10%;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.panel {
+    text-align: center;
+}
 
+.accordion {
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.h2-omnuuii {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+s
 /*---- produktside starter -----*/
 
 .headings-top {
@@ -749,7 +762,7 @@ input {
 }
 
 #billedeogtekst1 {
-    background-color: #f8ffff;
+    background-color: #f7ffff;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 40px;
@@ -757,7 +770,7 @@ input {
 }
 
 #billedeogtekst2 {
-    background-color: #f8ffff;
+    background-color: #f7ffff;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 50px;
@@ -765,7 +778,7 @@ input {
 }
 
 #billedeogtekst3 {
-    background-color: #f8ffff;
+    background-color: #f7ffff;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 50px;
@@ -790,19 +803,15 @@ input {
     margin-right: 20px;
 }
 
-
 #slutproduktside {
     text-align: center;
 }
 
 
-
-
-
+/*---- produktside slutter -----*/
 
 
 /* ------ Vejledning underside -----*/
-
 
 #need-answers h3 {
     text-align: center;
@@ -820,19 +829,15 @@ input {
     color: #f8ffff;
     transition: 0.3s ease-out;
     padding: 15px;
-
-
     font-size: 0.8em;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 #kontakt-link {
-
     text-align: center;
     text-decoration: none;
 }
-
 
 #kontakt-btn:hover {
     background-color: #40638d;
@@ -840,19 +845,19 @@ input {
 
 
 /*------------------------------ Media Query   -------------------------*/
-/* -------------- Media query 500 px ----------- */
-@media screen and (min-width: 500px) {
 
+
+/* -------------- Media query 500 px ----------- */
+
+@media screen and (min-width: 500px) {
     /* Produkter forside */
     .overlay-heading {
         font-size: 4.5em;
         margin-bottom: 0;
     }
-
     .overlay-click {
         font-size: 1.5em;
     }
-
     .overlay-info {
         position: absolute;
         height: 100%;
@@ -865,86 +870,48 @@ input {
         line-height: 130%;
         text-align: center;
     }
-
     /*--Footer*/
     .footer-kontakt-icon {
         width: 22%;
         margin: 0;
         text-align: left;
     }
-
     .footer-kickstarter {
         display: block;
         width: 30%;
     }
-
-
-    /*---Kontakt side---*/
-
-    #some-section-kontakt {
-        margin: 2% auto;
-        width: 80%;
-        padding: 2%;
-        box-shadow:  5px 4px 4px -3px rgba(64,99,141,1);
-        
+    .footer-kickstarter a {}
+    /*-----om nuuii----*/
+    .icon-mobil-omnuuii {
+        width: 40vh;
     }
-
-    .kontakt-p {
-        text-align: center;
-        margin: 4% auto;
-    }
-
-    #some-section-kontakt img {
-        width: 100%;
-    }
-
-    .kontakt-icon, #kontaktmail {
-        width: 30%;
-    }
-    
-    .container {
-        width: 430px;
-    }
-
 }
-
-
 
 
 /* ----------- Media query 750 px ---------- */
 
 @media screen and (min-width: 750px) {
-
-
     /*----- Nav bar desktop ----*/
     #nav-links-mobile {
         display: none;
     }
-
     #burger {
         display: none;
     }
-
     #toggle-desk-nav {
         display: block;
     }
-
     /*---- Footer-----*/
-
     .footer-kontakt-icon {
         width: 22%;
         margin: 0;
         text-align: center;
     }
-
     .footer-kickstarter {
         display: block;
         width: 30%;
         text-align: center;
     }
-
-
-
     /*---- hvad hvordan hvorfor underside-- */
     #hhh {
         display: flex;
@@ -952,87 +919,65 @@ input {
         flex-wrap: wrap;
         margin-bottom: 10%;
     }
-
     #hhhtekst {
         height: 150px;
     }
-
     .hhharea {
         width: 25%;
         padding: 2% 0;
     }
-
-
     #indexprodukter {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
     }
-
     .product-container {
         width: 28%;
         margin: 5% auto;
-
     }
-
     .overlay-heading {
         font-size: 2em;
     }
-
     .overlay-click {
         font-size: 1em;
     }
-
     .overlay-info {
         font-size: 0.8em;
     }
-
     #indexomnuuii {
         margin: 10% auto;
-
     }
-
     #omnuuii-heading {
         margin-bottom: 5%;
     }
-
     #omnuuiiflexcontainer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-
     .nuuiiinfo {
         width: 33%;
         margin: 1% auto;
     }
-
-
     .nuuiiinfo a:hover {
         font-weight: bolder;
         text-decoration: underline;
-
+        width: 60%;
     }
-
     #somelinksforside img {
         width: 25%;
     }
-
     .text-video {
         display: block;
         text-align: center;
         margin: 5% auto 0 auto;
     }
-
     .indexfaq {
         width: 80vw;
     }
-
     .video-guide-index video {
         margin-top: 5%;
     }
-
     /*----- vejledning underside -----*/
     #kontakt-btn {
         padding: 2.2%;
@@ -1040,274 +985,161 @@ input {
         height: 7vh;
         width: 22vh;
     }
-    
-    
-    
-    /*---Kontakt side---*/
-
-    #some-section-kontakt {
-        margin: 2% auto;
-        width: 80%;
-        padding: 2%;
-        
+    /*-----omnuuiiside----*/
+    .icon-mobil-omnuuii {
+        width: 45vh;
     }
-
-    .kontakt-p {
-        text-align: center;
-        margin: 4% auto;
-    }
-
-    #some-section-kontakt img {
-        width: 90%;
-    }
-
-    .kontakt-icon, #kontaktmail {
-        width: 20%;
-    }
-
 }
 
+
 /*------ Media query 900 px width --------*/
+
 @media screen and (min-width: 900px) {
     .nuuiiinfo {
         width: 25%;
         margin: 1% auto;
     }
-
     .indexfaq {
         width: 70vw;
     }
-
     #intro-container h2 {
         margin-top: 10vh;
-
     }
-
     #button-intro {
         padding-top: 1%;
         text-align: center;
     }
-
     #button-more {
         margin-top: 10%;
     }
-
     #kontakt-btn {
         padding: 1.5%;
         font-size: 1.3em;
         height: 7vh;
         width: 22vh;
     }
-    
-    
-    /*--- Kontakt ---*/
-    #flex-maps-formular {
-        display: flex;
-        flex: wrap;
-        flex-direction: row;
-        margin:5% auto;
-        
-    }
-    .container {
-        width: 45%;
-        margin: 0 2% 0 4%;
-        padding-top:5%; 
-        
-    }
-    
-    .maps {
-    position: relative;
-    padding-bottom: 50%;
-    overflow: hidden;
-    margin: 0 4% 0 2%;
-    width: 45%;
-}
-
-.maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-}
-
     /*--Footer--*/
-    .somelinks-footer {
+    #somelinks-footer {
         margin: 0 auto;
         padding-left: 12%;
     }
-
     .footer-kontakt-icon {
         width: 18%;
         margin: 0;
         text-align: center;
         padding: 0;
     }
-
     .footer-kickstarter {
         display: block;
         width: 30%;
         padding-right: 0;
     }
-    
-    
-
-
-
+    /*-----omnuuiiside----*/
+    .icon-mobil-omnuuii {
+        width: 45vh;
+    }
 }
 
+
 /*------ Media query 1000 px width --------*/
+
 @media screen and (min-width: 1000px) {
     #intro-container {
         background-image: url(../images/heroimage.JPG);
         background-size: 100%;
         height: 70vh;
     }
-
     #hero-logo {
         width: 50vh;
         margin-top: 10vh;
     }
-
     .overlay-info {
         font-size: 1.1em;
-
     }
-
     .overlay-heading {
         font-size: 3em;
     }
-
     #button-intro {
         background-color: #f8ffff;
         height: 5vh;
         width: 25vh;
         border-radius: 50px;
-
     }
-
     #button-more {}
-
     .nuuiiinfo {
         width: 20%;
         margin: 0 auto;
     }
-
     #somelinksforside img {
         width: 20%;
     }
-    
-    /*--- Kontakt ---*/
-    #some-section-kontakt {
-        margin: 2% auto 0 auto;
-        width: 850px;
-        padding:0 3%;
-        
-    }
-    .kontakt-p {
-        margin: 2% 0;
-    }
-    
-    
-
     /*--Footer--*/
-    .somelinks-footer {
+    #somelinks-footer {
         padding-left: 19%;
     }
-
     .footer-kontakt-icon {
         width: 15%;
         padding: 0;
     }
-
-
+    /*-----omnuuiiside----*/
+    .icon-mobil-omnuuii {
+        width: 50vh;
+    }
 }
 
+
 /*------ Media query 1200 px width --------*/
+
 @media screen and (min-width: 1200px) {
     #hhh {
         margin: 5% auto;
         width: 70%;
     }
-
     #indexomnuuii {
         width: 90%;
         margin: 5% auto;
     }
-
     #somelinksforside {
         margin: 10% auto;
     }
-
     #forsidevejledning {
         margin: 5% auto;
     }
-
     .overlay-info {
         font-size: 1.3em;
     }
-
     .video-guide-index {
         margin: 2% auto;
-
     }
-
     .video-guide-index video {
         width: 80%;
         margin: 2% auto;
         display: block;
     }
-
     #kontakt-btn {
         padding: 1.2%;
-
     }
-
     .indexfaq {
         width: 50vw;
     }
-
     .faq-question {
         padding: 2%;
     }
-    
-    /*---kontakt----*/
-    #flex-maps-formular {
-        margin: 2% auto 2% auto;
-        padding: 0 10%;
+    #somelinks-footer {
+        padding-left: 25%;
+        height: 19vh;
     }
-    
-    .container {
-        width: 30%;
-        height: 60vh;
-        margin: 2% 2% 0 auto;
-        padding-left: 2%;
-        padding-right: 2%;
-        
-    }
-    .maps {
-        width: 40%;
-        margin: 2% auto 0 2%;
-    }
-    .maps {
-    padding-bottom: 30%;
-    }
-
-    .somelinks-footer {
-        padding: 1% 0 2% 15%;
-        height: 15vh;
-
-    }
-
     .footer-kontakt-icon {
-        width: 10%;
-        margin: 0 5%;
+        width: 12%;
+        padding: 0;
     }
-
     .footer-kickstarter {
-        font-size: 1.1em;
-        padding: 2% 0 3% 0;
+        font-size: 1.5em;
+        padding: 3% 0 0 0;
         margin: 0;
     }
-
+    /*-----omnuuiiside----*/
+    .icon-mobil-omnuuii {
+        width: 55vh;
+    }
 }
