@@ -1008,6 +1008,29 @@ input {
         height: 7vh;
         width: 22vh;
     }
+    
+    /*---Kontakt side---*/
+
+    #some-section-kontakt {
+        margin: 2% auto;
+        width: 80%;
+        padding: 2%;
+        
+    }
+
+    .kontakt-p {
+        text-align: center;
+        margin: 4% auto;
+    }
+
+    #some-section-kontakt img {
+        width: 90%;
+    }
+
+    .kontakt-icon, #kontaktmail {
+        width: 20%;
+    }
+    
     /*-----omnuuiiside----*/
     .icon-mobil-omnuuii {
         width: 45vh;
