@@ -1,4 +1,4 @@
-Castillesæbe
-Solsikkeolie
-Citronsyre
+Castillesæbe,
+Solsikkeolie,
+Citronsyre,
 Natron
