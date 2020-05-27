@@ -169,11 +169,11 @@ nav {
 }
 
 #intro-container h1 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 2vh;
-    text-shadow: white 2px 0px;
+   
 }
 
 #intro-container h2 {
@@ -289,7 +289,7 @@ nav {
     font-weight: bolder;
     color: #40638D;
     text-shadow: #f8ffff 2px 0px;
-    overflow-x: hidden;
+
 }
 
 .overlay-click {
@@ -797,6 +797,10 @@ input {
     padding: 2%;
 }
 
+#getIngr:hover {
+    text-decoration: underline;
+}
+
 #output {
     width: 100%;
     height: 5vh;
@@ -819,20 +823,28 @@ input {
     margin: 2% auto;
 }
 
-.buy-shop-matas {
-    color:#f8ffff;
-    text-decoration: none;
-    padding: 5% auto;
-}
-
-.box-buy {
+#buy-shop, #buy-matas {
     font-size: 2em;
-     background-color: #40638d;
+    background-color: #c5cfdb;
     width: 150px;
     height: 150px;
     margin: 5% auto;
     text-align: center;
+vertical-align: middle;
+line-height: 150px;
+    text-decoration: none;
+    padding: 5% auto;
+     color:#f8ffff;
 }
+
+#buy-shop:hover, #buy-matas:hover {
+    text-decoration: underline;
+    background-color:#40638d;
+}
+.box-buy {
+       color:#f8ffff;
+}
+
 /*---- produktside slutter -----*/
 
 
@@ -950,6 +962,13 @@ input {
     .produkt-right {
         width: 70%;
     }
+    
+  
+    #buy-here {
+        width: 70%;
+        margin: 2% auto;
+    }
+
 }
 
 
@@ -1136,6 +1155,11 @@ input {
           padding: 2%;
     }
     
+    #buy-here {
+        width: 60%;
+        margin: 2% auto;
+    }
+    
 }
 
 
@@ -1242,6 +1266,10 @@ input {
     }
     .produkt-content {
         padding: 4% 0;
+    }
+    #buy-here {
+        width: 50%;
+        margin: 2% auto;
     }
 }
 
@@ -1427,5 +1455,19 @@ input {
     /*-----omnuuiiside----*/
     .icon-mobil-omnuuii {
         width: 55vh;
+    }
+    
+    /*--- Produkt side ----*/
+    
+    #buy-here {
+        width: 40%;
+        margin: 2% auto;
+    }
+    #buy-shop, #buy-matas {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+vertical-align: middle;
+line-height: 200px;
     }
 }
