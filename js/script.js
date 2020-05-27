@@ -1,20 +1,3 @@
-function showMobileNav() {
-
-    let showMenu = document.querySelector("#nav-links-mobile");
-
-    if (showMenu.style.width === "100vw") {
-        showMenu.style.width = "0vw";
-    } else {
-        showMenu.style.width = "100vw";
-    }
-
-    // burger animation at toggle
-    const burger = document.querySelector("#burger");
-
-    burger.classList.toggle("toggle");
-
-}
-
 
 
 // ------ FAQ drop down -----
@@ -36,25 +19,44 @@ for (i = 0; i < faq.length; i++) {
 }
 
 
-// ------ Accordion - om nuuii -----
-const acc = document.getElementsByClassName("accordion");
+
+
+
+// ------ Om nuuii -----
+const info = document.getElementsByClassName("read-more-btn");
 var i;
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
+for (i = 0; i < info.length; i++) {
+    info[i].addEventListener("click", function() {
         this.classList.toggle("active");
+        let mereinfoom = this.nextElementSibling;
 
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
+        if (mereinfoom.style.display === "block") {
+            mereinfoom.style.display = "none";
         } else {
-            panel.style.display = "block";
+            mereinfoom.style.display = "block";
         }
     });
 }
+
+/*----- Navigation ----*/
+
+function showMobileNav() {
+
+    let showMenu = document.querySelector("#nav-links-mobile");
+
+    if (showMenu.style.width === "100vw") {
+        showMenu.style.width = "0vw";
+    } else {
+        showMenu.style.width = "100vw";
+    }
+
+    // burger animation at toggle
+    const burger = document.querySelector("#burger");
+
+    burger.classList.toggle("toggle");
+}
+
 
 // ------ ingredienser API Fetch -----
 const getIngrBtnElement = document.getElementById("getIngr");
