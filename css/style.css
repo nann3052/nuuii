@@ -210,6 +210,7 @@ nav {
 #hhh {
     margin-top: 10vh;
     display: block;
+  
 }
 
 .hhhcircle {
@@ -223,6 +224,7 @@ nav {
     text-align: center;
     font-size: 2.5em;
     text-align: center;
+      box-shadow: 5px 4px 4px -3px rgba(64, 99, 141, 1);
 }
 
 .hhhcircle p {
@@ -276,6 +278,7 @@ nav {
     position: relative;
     margin: 5% 0 0 0;
     text-align: center;
+    box-shadow: 5px 4px 4px -3px rgba(64, 99, 141, 1);
 }
 
 
@@ -352,6 +355,7 @@ nav {
     width: 50%;
     display: block;
     margin: 5% auto 0 auto;
+
  
 }
 
@@ -367,6 +371,7 @@ nav {
 #somelinksforside {
     margin: 15% 0 0 0;
     text-align: center;
+
 }
 
 #somelinksforside img {
@@ -379,7 +384,7 @@ nav {
     margin: 2% auto;
     width: 100%;
     background-color: #f8ffff;
-    border: 1px solid #40638d;
+    border: 2px solid #c5cfdb;
     padding: 2%;
     display: flex;
     flex-direction: row;
@@ -512,6 +517,7 @@ nav {
 .indexfaq {
     text-align: center;
     margin: 50px auto;
+
 }
 
 .faq-question {
@@ -526,6 +532,7 @@ nav {
     transition: all 0.4s ease-out;
     margin: 2% 0 0 0;
     padding: 5%;
+    box-shadow: 5px 4px 4px -3px rgba(64, 99, 141, 1);
 }
 
 .active,
@@ -653,8 +660,8 @@ form {
     margin-left: auto;
     margin-right: auto;
     margin-top: 8%;
-    border: solid 1px #2b435b;
-    box-shadow: 2px 5px 5px rgb(146, 146, 146);
+    border: solid 2px #c5cfdb;
+    box-shadow: 5px 4px 4px -3px rgba(64, 99, 141, 1);
 }
 
 label {
@@ -782,6 +789,7 @@ input {
 .info-container-left, .info-container-right {
     border: 2px solid #c5cfdb;
     margin: 5%;
+    box-shadow: 5px 4px 4px -3px rgba(64, 99, 141, 1);
 }
 
 /*---- Produktside  ----------*/
@@ -811,6 +819,7 @@ input {
     margin: 2% 0 20% 0;
     border: solid 1px #c5cfdb;
     padding: 4% 0;
+    box-shadow: 5px 4px 4px -3px rgba(64, 99, 141, 1);
 }
 
 .produkt-left,
