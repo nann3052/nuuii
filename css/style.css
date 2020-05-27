@@ -904,6 +904,7 @@ input {
     
     .container {
         width: 430px;
+    }
     /*-----om nuuii----*/
     .icon-mobil-omnuuii {
         width: 40vh;
@@ -1083,7 +1084,7 @@ input {
     
       #flex-maps-formular {
         display: flex;
-        flex: wrap;
+        flex-wrap: wrap;
         flex-direction: row;
         margin:5% auto;
         
@@ -1091,7 +1092,7 @@ input {
     /*--- Kontakt ---*/
     #flex-maps-formular {
         display: flex;
-        flex: wrap;
+        flex-wrap: wrap;
         flex-direction: row;
         margin:5% auto;
         
@@ -1252,8 +1253,9 @@ input {
     }
 
     .somelinks-footer {
-        padding: 1% 0 2% 15%;
+        padding: 1% 0 2% 22%;
         height: 15vh;
+    }
     
     /*-----omnuuiiside----*/
     .icon-mobil-omnuuii {

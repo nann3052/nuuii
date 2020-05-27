@@ -15,11 +15,6 @@ function showMobileNav() {
 
 }
 
-/*
-
-
-*/
-
 
 
 // ------ FAQ drop down -----
