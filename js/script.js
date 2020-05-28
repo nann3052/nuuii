@@ -1,3 +1,20 @@
+/*----- Navigation ----*/
+
+function showMobileNav() {
+
+    let showMenu = document.querySelector("#nav-links-mobile");
+
+    if (showMenu.style.width === "100vw") {
+        showMenu.style.width = "0vw";
+    } else {
+        showMenu.style.width = "100vw";
+    }
+
+    // burger animation at toggle
+    const burger = document.querySelector("#burger");
+
+    burger.classList.toggle("toggle");
+}
 
 
 // ------ FAQ drop down -----
@@ -20,8 +37,6 @@ for (i = 0; i < faq.length; i++) {
 
 
 
-
-
 // ------ Om nuuii -----
 const info = document.getElementsByClassName("read-more-btn");
 var i;
@@ -39,24 +54,6 @@ for (i = 0; i < info.length; i++) {
     });
 }
 
-/*----- Navigation ----*/
-
-function showMobileNav() {
-
-    let showMenu = document.querySelector("#nav-links-mobile");
-
-    if (showMenu.style.width === "100vw") {
-        showMenu.style.width = "0vw";
-    } else {
-        showMenu.style.width = "100vw";
-    }
-
-    // burger animation at toggle
-    const burger = document.querySelector("#burger");
-
-    burger.classList.toggle("toggle");
-}
-
 
 // ------ ingredienser API Fetch -----
 const getIngrBtnElement = document.getElementById("getIngr");
@@ -70,6 +67,7 @@ function getIngr() {
             document.getElementById("output").innerHTML = data;
         })
 }
+
 
 
 

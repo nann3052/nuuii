@@ -232,7 +232,7 @@ nav {
     
 }
 
-#hhhtekst {
+.hhhtekst {
     font-size: 1.1em;
     width: 85%;
     text-align: center;
@@ -1058,7 +1058,7 @@ line-height: 150px;
         margin-bottom: 10%;
     }
 
-    #hhhtekst {
+    .hhhtekst {
         height: 150px;
     }
 
