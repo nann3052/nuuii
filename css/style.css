@@ -229,6 +229,7 @@ nav {
 
 .hhhcircle p {
     color: #f8ffff;
+    
 }
 
 #hhhtekst {
@@ -1017,6 +1018,12 @@ line-height: 150px;
 
 @media screen and (min-width: 750px) {
 
+       .hhhcircle p {
+    font-size: 0.8em;
+    
+}
+    
+    
     /*----- Nav bar desktop ----*/
     #nav-links-mobile {
         display: none;
@@ -1562,4 +1569,6 @@ line-height: 150px;
 vertical-align: middle;
 line-height: 200px;
     }
+    
+ 
 }
