@@ -1373,7 +1373,7 @@ line-height: 150px;
 
 @media screen and (min-width: 1000px) {
     #intro-container {
-        background-image: url(../images/heroimage.JPG);
+        background-image: url(../images/heroimage.jpg);
         background-size: 100%;
         height: 70vh;
     }
